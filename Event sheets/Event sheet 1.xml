@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable comment="The total distance run so far, in pixels." constant="0" name="TotalDistance" sid="488860388888326" static="0" type="number">0</variable>
+        <variable comment="Counts up to &apos;NextBlock&apos;, at which point a new block is created." constant="0" name="CurrentDistance" sid="899547024068714" static="0" type="number">0</variable>
+        <variable comment="The distance after which to create the next block." constant="0" name="NextBlock" sid="867415584046885" static="0" type="number">600</variable>
+        <comment>Make sure everything moves left across the screen (since the default 0 degrees is right)</comment>
+        <event-block sid="513324235869207">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="185902156026580" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="655348327309667" type="TiledBackground">
+                    <param id="0" name="Angle">180</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="102829100423132" type="Block">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Wrap the scrolling background infinitely by moving it back after it&apos;s scrolled the width of the main image to the left.</comment>
+        <event-block sid="424691693267990">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="596933683912824" type="TiledBackground">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">-Self.Width / 2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="955633705644748" type="TiledBackground">
+                    <param id="0" name="X">Self.X + Self.Width / 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>While on floor, keep holding the &quot;run right&quot; control, so the character keeps running.</comment>
+        <event-block sid="501507945084833">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="916755331117986" type="Player" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="320380362769887" type="Player">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>On any user input at all, make the character jump.</comment>
+        <event-block any="1" sid="463800840019898">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="847743228199184" type="Touch" />
+                <condition id="1" name="On any key pressed" sid="837922713046673" type="Keyboard" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="195715822537038" type="Player">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Keep incrementing the current and total distances, and display the total distance in a text object.</comment>
+        <event-block sid="543956094856617">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="445141465151045" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="935571948210507" type="System">
+                    <param id="0" name="Variable">CurrentDistance</param>
+                    <param id="1" name="Value">Block.Bullet.Speed * dt</param>
+                </action>
+                <action id="-10" name="Add to" sid="527778161497522" type="System">
+                    <param id="0" name="Variable">TotalDistance</param>
+                    <param id="1" name="Value">Block.Bullet.Speed * dt</param>
+                </action>
+                <action id="0" name="Set text" sid="982186084852629" type="DistanceDisplay">
+                    <param id="0" name="Text">round(TotalDistance)</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Once CurrentDistance reaches NextBlock, it is time to create a new block.  Create it with a random width and height, then position it just off the right edge of the screen.  Make it move to the left again, then set NextBlock to create another block a random distance after this one.</comment>
+        <event-block sid="574014904410081">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="685161940362372" type="System">
+                    <param id="0" name="Variable">CurrentDistance</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">NextBlock</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="151548238210853" type="System">
+                    <param id="0" name="Variable">CurrentDistance</param>
+                    <param id="1" name="Value">NextBlock</param>
+                </action>
+                <action id="-3" name="Create object" sid="860847814653907" type="System">
+                    <param id="0" name="Object to create">Block</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-7" name="Set size" sid="478999611805940" type="Block">
+                    <param id="0" name="Width">100 + random(400)</param>
+                    <param id="1" name="Height">60 + random(180)</param>
+                </action>
+                <action id="-3" name="Set position" sid="973983325225341" type="Block">
+                    <param id="0" name="X">LayoutWidth</param>
+                    <param id="1" name="Y">LayoutHeight - Self.Height</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="229078047464541" type="Block">
+                    <param id="0" name="Angle">180</param>
+                </action>
+                <action id="-9" name="Set value" sid="249432531369013" type="System">
+                    <param id="0" name="Variable">NextBlock</param>
+                    <param id="1" name="Value">Block.Width + 20 + random(200)</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Destroy blocks that go off the left of the screen so they don&apos;t keep taking up memory or CPU.</comment>
+        <event-block sid="467182776627902">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="464292829895078" type="Block">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-Self.Width</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="910311206339718" type="Block" />
+            </actions>
+        </event-block>
+        <comment>If the player falls off the bottom of the screen, restart the game.</comment>
+        <event-block sid="573438699414197">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="276730450826574" type="Player">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="600771222138549" type="System" />
+                <action id="-26" name="Restart layout" sid="338143519170782" type="System" />
+            </actions>
+        </event-block>
+        <comment>Due to the acceleration of the platform movement, we need to do some tweaks to make sure the player doesn&apos;t gradually get pushed off to the left of the screen over time.</comment>
+        <event-block sid="936392518904197">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="945879556596846" type="Player">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">105</param>
+                </condition>
+                <condition behavior="Platform" id="2" inverted="1" name="Is on floor" sid="787459534636603" type="Player" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="161725051486216" type="Player">
+                    <param id="0" name="X">Self.X + 5 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="374381661091985">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="209513866537069" type="Player" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="790214205270716" type="Player">
+                    <param id="0" name="X">Self.X + 1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
