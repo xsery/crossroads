@@ -19,6 +19,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -27,7 +28,7 @@
     </configurations>
     <window-size>
         <width>630</width>
-        <height>360</height>
+        <height>630</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -86,17 +87,71 @@
         <object-type name="DistanceDisplay" sid="117149036245268">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite" sid="654117160845522">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="837039495580264" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platform" sid="477392824431877">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="885594493825480">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573493188693115" speed="5">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.0487805" y="0" />
+                            <point x="0.512195" y="0" />
+                            <point x="0.97561" y="0" />
+                            <point x="0.97561" y="0.166667" />
+                            <point x="0.951219" y="0.916667" />
+                            <point x="0.512195" y="0.958333" />
+                            <point x="0.0487805" y="0.958333" />
+                            <point x="0.0243902" y="0.166667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="110544807504785">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247196953730414" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="749149566003354">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510200636000335" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
-        <layout>Layout 2.xml</layout>
-        <layout>Layout 3.xml</layout>
+        <layout>Fase-1.xml</layout>
+        <layout>Fase-2.xml</layout>
+        <layout>Fase-3.xml</layout>
+        <layout>Tela Inicial.xml</layout>
+        <layout>Tela Final.xml</layout>
+        <layout>Tela de Gameover.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>fase-1.xml</event-sheet>
+        <event-sheet>fase-2.xml</event-sheet>
+        <event-sheet>fase-3.xml</event-sheet>
+        <event-sheet>Tela Inicial.xml</event-sheet>
+        <event-sheet>Tela Final.xml</event-sheet>
+        <event-sheet>Tela de Gameover.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">

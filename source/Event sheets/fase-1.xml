@@ -1,12 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Event sheet 1</name>
+    <name>fase-1</name>
     <events>
         <variable comment="The total distance run so far, in pixels." constant="0" name="TotalDistance" sid="488860388888326" static="0" type="number">0</variable>
         <variable comment="Counts up to &apos;NextBlock&apos;, at which point a new block is created." constant="0" name="CurrentDistance" sid="899547024068714" static="0" type="number">0</variable>
         <variable comment="The distance after which to create the next block." constant="0" name="NextBlock" sid="867415584046885" static="0" type="number">600</variable>
         <comment>Make sure everything moves left across the screen (since the default 0 degrees is right)</comment>
+        <event-block sid="541362149446917">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="152553397447491" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="381659976056591" type="System">
+                    <param id="0" name="Layout">Fase-2</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="513324235869207">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="185902156026580" type="System" />

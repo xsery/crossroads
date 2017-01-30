@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 1</name>
+    <name>Fase-1</name>
     <sid>537276383700060</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>fase-1</event-sheet>
     <size>
         <width>630</width>
-        <height>360</height>
+        <height>630</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -50,10 +50,32 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>0</x>
-                        <y>0</y>
+                        <y>270</y>
                         <z>0</z>
                         <width>1260</width>
                         <height>360</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3" uid="30">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>632.63659668</width>
+                        <height>268.453887939</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -107,7 +129,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>105</x>
-                        <y>183</y>
+                        <y>453</y>
                         <z>0</z>
                         <width>35</width>
                         <height>39</height>
@@ -144,7 +166,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>30</x>
-                        <y>243</y>
+                        <y>513</y>
                         <z>0</z>
                         <width>993</width>
                         <height>117</height>
@@ -190,7 +212,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>4</x>
-                        <y>2</y>
+                        <y>272</y>
                         <z>0</z>
                         <width>200</width>
                         <height>30</height>

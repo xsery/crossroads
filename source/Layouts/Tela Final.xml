@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 2</name>
-    <sid>620485967856897</sid>
-    <event-sheet>Event sheet 2</event-sheet>
+    <name>Tela Final</name>
+    <sid>275493853101050</sid>
+    <event-sheet>Tela Final</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="480799664984267">
+        <layer name="Layer 0" sid="571844706054686">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
