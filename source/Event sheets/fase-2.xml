@@ -55,7 +55,7 @@
                     </conditions>
                     <actions>
                         <action id="-7" name="Scroll to position" sid="186866811931666" type="System">
-                            <param id="0" name="X">160</param>
+                            <param id="0" name="X">260</param>
                             <param id="1" name="Y">MinScroll</param>
                         </action>
                     </actions>
@@ -72,7 +72,7 @@
                     </actions>
                 </event-block>
                 <comment>Use left and right arrow keys to control the player.  (This is necessary because the &apos;Default controls&apos; property has been set to &apos;No&apos; on the platform behavior, so we can automate jumping.)</comment>
-                <event-block sid="214780171830563">
+                <event-block disabled="1" sid="214780171830563">
                     <conditions>
                         <condition id="2" name="Key is down" sid="640495451379589" type="Keyboard">
                             <param id="0" name="Key">37 (Left arrow)</param>
@@ -85,7 +85,7 @@
                     </actions>
                 </event-block>
                 <comment>On a mobile device, use the left-to-right tilt (Gamma) to also control movement.  This simply simulates pressing a control if the device has tilted enough to the left or right.</comment>
-                <event-block sid="516765934902954">
+                <event-block disabled="1" sid="516765934902954">
                     <conditions>
                         <condition id="2" name="Key is down" sid="662256876861376" type="Keyboard">
                             <param id="0" name="Key">39 (Right arrow)</param>
@@ -97,7 +97,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="510830065570322">
+                <event-block disabled="1" sid="510830065570322">
                     <conditions>
                         <condition id="8" name="Compare orientation" sid="108514240579310" type="Touch">
                             <param id="0" name="Orientation">2</param>
@@ -111,9 +111,15 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="530823152155988">
+                <comment></comment>
+                <event-block disabled="1" sid="530823152155988">
                     <conditions>
                         <condition id="8" name="Compare orientation" sid="642361334982378" type="Touch">
+                            <param id="0" name="Orientation">2</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Angle">8</param>
+                        </condition>
+                        <condition id="8" name="Compare orientation" sid="151052899726528" type="Touch">
                             <param id="0" name="Orientation">2</param>
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Angle">8</param>
@@ -126,7 +132,7 @@
                     </actions>
                 </event-block>
                 <comment>Destroy any platforms that go off the bottom of the screen so they don&apos;t keep using up memory and CPU and cause the game to slow down.</comment>
-                <event-block sid="903044032115437">
+                <event-block disabled="1" sid="903044032115437">
                     <conditions>
                         <condition id="-3" inverted="1" name="Is on-screen" sid="655979056892949" type="Platform" />
                         <condition id="-2" name="Compare Y" sid="439678237944190" type="Platform">
@@ -139,7 +145,7 @@
                     </actions>
                 </event-block>
                 <comment>If the player falls off the bottom of the screen, restart the layout.</comment>
-                <event-block sid="708552234644718">
+                <event-block disabled="1" sid="708552234644718">
                     <conditions>
                         <condition id="-3" inverted="1" name="Is on-screen" sid="333460474185717" type="Player" />
                         <condition id="-2" name="Compare Y" sid="261771495652080" type="Player">
@@ -152,7 +158,7 @@
                         <action id="-26" name="Restart layout" sid="282420106714242" type="System" />
                     </actions>
                 </event-block>
-                <event-block sid="946943197056318">
+                <event-block disabled="1" sid="946943197056318">
                     <conditions>
                         <condition id="-1" name="Compare X" sid="718313967744823" type="Player">
                             <param id="0" name="Comparison">2</param>
@@ -166,7 +172,7 @@
                     </actions>
                 </event-block>
                 <comment>Allow the player to wrap around to the left and right.</comment>
-                <event-block sid="849971131508917">
+                <event-block disabled="1" sid="849971131508917">
                     <conditions>
                         <condition id="-1" name="Compare X" sid="384873754615259" type="Player">
                             <param id="0" name="Comparison">4</param>
