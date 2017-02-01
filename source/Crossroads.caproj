@@ -119,7 +119,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="110544807504785">
+        <object-type name="bg" sid="110544807504785">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247196953730414" speed="5">
@@ -127,11 +127,45 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="749149566003354">
+        <object-type name="parede" sid="749149566003354">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="726942170417043">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510200636000335" speed="5">
                     <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buraco" sid="186321589306841">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="229061143189464">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543758942474190" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="545294355809540">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="pontos" sid="385017051141673">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="602692186295198">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311668573635294" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
