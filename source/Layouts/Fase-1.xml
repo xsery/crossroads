@@ -4,8 +4,8 @@
     <sid>537276383700060</sid>
     <event-sheet>fase-1</event-sheet>
     <size>
-        <width>630</width>
-        <height>630</height>
+        <width>1500</width>
+        <height>1500</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -50,10 +50,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>0</x>
-                        <y>270</y>
+                        <y>253</y>
                         <z>0</z>
-                        <width>1260</width>
-                        <height>360</height>
+                        <width>3000</width>
+                        <height>1000</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -81,8 +81,37 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>632.63659668</width>
-                        <height>268.453887939</height>
+                        <width>2199</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="parede" uid="11">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-2</x>
+                        <y>1248</y>
+                        <z>0</z>
+                        <width>2199</width>
+                        <height>250</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -135,11 +164,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>105</x>
-                        <y>453</y>
+                        <x>205</x>
+                        <y>1069</y>
                         <z>0</z>
-                        <width>35</width>
-                        <height>39</height>
+                        <width>112.12172699</width>
+                        <height>124.935638428</height>
                         <depth>0</depth>
                         <hotspotX>0.514285743</hotspotX>
                         <hotspotY>0.512820542</hotspotY>
@@ -172,10 +201,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>30</x>
-                        <y>513</y>
+                        <x>7</x>
+                        <y>1130</y>
                         <z>0</z>
-                        <width>993</width>
+                        <width>1941</width>
                         <height>117</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -207,7 +236,7 @@
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
+                        <font>Arial,-37.6,700,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -218,11 +247,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4</x>
-                        <y>272</y>
+                        <x>43</x>
+                        <y>320</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>500.599609375</width>
+                        <height>75.089942932</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
