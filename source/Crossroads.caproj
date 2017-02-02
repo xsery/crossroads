@@ -234,22 +234,22 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Fase-1.xml</layout>
-        <layout>Fase-4.xml</layout>
-        <layout>Fase-2.xml</layout>
-        <layout>Tela Inicial.xml</layout>
-        <layout>Tela Final.xml</layout>
-        <layout>Tela de Gameover.xml</layout>
-        <layout>Fase-3.xml</layout>
+        <layout>Level-1.xml</layout>
+        <layout>Level-2.xml</layout>
+        <layout>Level-3.xml</layout>
+        <layout>Level-4.xml</layout>
+        <layout>layoutGameover.xml</layout>
+        <layout>layoutTelaInicial.xml</layout>
+        <layout>layoutTelaFinal.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>fase-1.xml</event-sheet>
-        <event-sheet>fase-4.xml</event-sheet>
-        <event-sheet>fase-2.xml</event-sheet>
-        <event-sheet>Tela Inicial.xml</event-sheet>
-        <event-sheet>Tela Final.xml</event-sheet>
-        <event-sheet>Tela de Gameover.xml</event-sheet>
-        <event-sheet>eventSheetFase3.xml</event-sheet>
+        <event-sheet>eventSheetLevel1.xml</event-sheet>
+        <event-sheet>eventSheetLevel4.xml</event-sheet>
+        <event-sheet>eventSheetLevel2.xml</event-sheet>
+        <event-sheet>eventSheetLayoutTelaInicial.xml</event-sheet>
+        <event-sheet>eventSheetLayoutTelaFinal.xml</event-sheet>
+        <event-sheet>eventSheetLayoutGameover.xml</event-sheet>
+        <event-sheet>eventSheetLevel3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">

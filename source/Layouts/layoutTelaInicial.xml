@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Tela de Gameover</name>
-    <sid>644003639409731</sid>
-    <event-sheet>Tela de Gameover</event-sheet>
+    <name>layoutTelaInicial</name>
+    <sid>681461931887578</sid>
+    <event-sheet>eventSheetLayoutTelaInicial</event-sheet>
     <size>
         <width>1500</width>
         <height>1500</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="593964476917380">
+        <layer name="Layer 0" sid="681364653707115">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite3" uid="51">
+                <instance type="Sprite" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,23 +39,23 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>749</x>
-                        <y>748</y>
+                        <x>0</x>
+                        <y>0</y>
                         <z>0</z>
                         <width>1500</width>
                         <height>1500</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text4" uid="52">
+                <instance type="Text3" uid="50">
                     <properties>
-                        <text>GAMEOVER</text>
+                        <text>TELA INICIAL</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
+                        <font>Arial,-37.6,700,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -66,11 +66,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>30</x>
-                        <y>40</y>
+                        <x>53</x>
+                        <y>47</y>
                         <z>0</z>
-                        <width>333</width>
-                        <height>89</height>
+                        <width>335</width>
+                        <height>106</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

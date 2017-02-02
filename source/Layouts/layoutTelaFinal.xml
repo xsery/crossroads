@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Tela Inicial</name>
-    <sid>681461931887578</sid>
-    <event-sheet>Tela Inicial</event-sheet>
+    <name>layoutTelaFinal</name>
+    <sid>275493853101050</sid>
+    <event-sheet>eventSheetLayoutTelaFinal</event-sheet>
     <size>
         <width>1500</width>
         <height>1500</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="681364653707115">
+        <layer name="Layer 0" sid="571844706054686">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite" uid="6">
+                <instance type="Sprite2" uid="48">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,9 +51,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text3" uid="50">
+                <instance type="Text2" uid="49">
                     <properties>
-                        <text>TELA INICIAL</text>
+                        <text>TELA FINAL</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-37.6,700,0</font>
                         <color>0,0,0</color>
@@ -66,10 +66,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>53</x>
-                        <y>47</y>
+                        <x>87</x>
+                        <y>72</y>
                         <z>0</z>
-                        <width>335</width>
+                        <width>350</width>
                         <height>106</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

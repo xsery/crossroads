@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventSheetLevel2</name>
+    <events>
+        <variable constant="0" name="scoreLeve2" sid="379335320584512" static="0" type="number">0</variable>
+        <event-block sid="983926561713519">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="333300336070746" type="Player">
+                    <param id="0" name="Object">buraco</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="811930011594973" type="System">
+                    <param id="0" name="Layout">Level-3</param>
+                </action>
+                <action id="-16" name="Wait" sid="873887818602054" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="665244021031554">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="892476456247180" type="Player">
+                    <param id="0" name="Object">pontos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="651638622110280" type="pontos" />
+                <action id="-9" name="Set value" sid="263251964620430" type="System">
+                    <param id="0" name="Variable">scoreLeve2</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="509755408860905">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="348215921460703" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

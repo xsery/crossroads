@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Fase-2</name>
+    <name>Level-2</name>
     <sid>127341727034916</sid>
-    <event-sheet>fase-2</event-sheet>
+    <event-sheet>eventSheetLevel2</event-sheet>
     <size>
         <width>1500</width>
         <height>1500</height>

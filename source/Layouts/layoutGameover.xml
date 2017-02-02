@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Tela Final</name>
-    <sid>275493853101050</sid>
-    <event-sheet>Tela Final</event-sheet>
+    <name>layoutGameover</name>
+    <sid>644003639409731</sid>
+    <event-sheet>eventSheetLayoutGameover</event-sheet>
     <size>
         <width>1500</width>
         <height>1500</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="571844706054686">
+        <layer name="Layer 0" sid="593964476917380">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite2" uid="48">
+                <instance type="Sprite3" uid="51">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,23 +39,23 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>0</y>
+                        <x>749</x>
+                        <y>748</y>
                         <z>0</z>
                         <width>1500</width>
                         <height>1500</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="49">
+                <instance type="Text4" uid="52">
                     <properties>
-                        <text>TELA FINAL</text>
+                        <text>GAMEOVER</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-37.6,700,0</font>
+                        <font>Arial,-48,700,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -66,11 +66,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>87</x>
-                        <y>72</y>
+                        <x>30</x>
+                        <y>40</y>
                         <z>0</z>
-                        <width>350</width>
-                        <height>106</height>
+                        <width>333</width>
+                        <height>89</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
