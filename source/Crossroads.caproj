@@ -169,23 +169,87 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="wall" sid="589883026634290">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="889462368217684" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="plataforma" sid="179678773843399">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="454773160711930">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226224816738679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="door" sid="312237547033241">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="815549675597680" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgfase3" sid="138048228424724">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138053205338104" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\irlan.gomes\Documents\fonte\uea\koryo\assets\bg-1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="219791846987600">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566789166118410" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="550310674789022">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="684398666450046">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite3" sid="836032114328454">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154519762070059" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="979123526355950">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Fase-1.xml</layout>
+        <layout>Fase-4.xml</layout>
         <layout>Fase-2.xml</layout>
-        <layout>Fase-3.xml</layout>
         <layout>Tela Inicial.xml</layout>
         <layout>Tela Final.xml</layout>
         <layout>Tela de Gameover.xml</layout>
+        <layout>Fase-3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>fase-1.xml</event-sheet>
+        <event-sheet>fase-4.xml</event-sheet>
         <event-sheet>fase-2.xml</event-sheet>
-        <event-sheet>fase-3.xml</event-sheet>
         <event-sheet>Tela Inicial.xml</event-sheet>
         <event-sheet>Tela Final.xml</event-sheet>
         <event-sheet>Tela de Gameover.xml</event-sheet>
+        <event-sheet>eventSheetFase3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">

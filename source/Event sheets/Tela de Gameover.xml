@@ -2,5 +2,18 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Tela de Gameover</name>
-    <events />
+    <events>
+        <event-block sid="814792334603149">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="876765836707209" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="107756700357123" type="System">
+                    <param id="0" name="Layout">Fase-1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

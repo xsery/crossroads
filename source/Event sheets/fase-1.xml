@@ -15,7 +15,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="381659976056591" type="System">
-                    <param id="0" name="Layout">Fase-2</param>
+                    <param id="0" name="Layout">Fase-4</param>
                 </action>
             </actions>
         </event-block>
