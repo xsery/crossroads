@@ -19,6 +19,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
@@ -119,7 +120,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bg" sid="110544807504785">
+        <object-type name="bg1" sid="110544807504785">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247196953730414" speed="5">
@@ -230,6 +231,97 @@
         </object-type>
         <object-type name="Text4" sid="979123526355950">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="grama" sid="814683380508389">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="648417503732616">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="passaro" sid="634710559928780">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="319992665561079">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="802269132455019">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243523677537126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="canobaixo" sid="766590116928934">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="782329963219935">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="387185702557876">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="673909484622482">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318782813507386" speed="5">
+                    <frame duration="1" hotspotX="0.472727" hotspotY="-0.0124481" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="canocima" sid="740047796050193">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="passou" sid="484268090338657" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="362750295592015">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="415407113266901">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="105229412242979">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332308546603229" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.01259" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg" sid="879193640066708">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="617009760725032">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="buracotop" sid="370885917308559">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="493576232777762">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="580261270756175">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616629867676391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

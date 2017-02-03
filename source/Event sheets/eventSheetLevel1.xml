@@ -7,7 +7,7 @@
         <variable comment="Counts up to &apos;NextBlock&apos;, at which point a new block is created." constant="0" name="CurrentDistance" sid="899547024068714" static="0" type="number">0</variable>
         <variable comment="The distance after which to create the next block." constant="0" name="NextBlock" sid="867415584046885" static="0" type="number">600</variable>
         <comment>Make sure everything moves left across the screen (since the default 0 degrees is right)</comment>
-        <event-block sid="541362149446917">
+        <event-block disabled="1" sid="541362149446917">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="152553397447491" type="System">
                     <param id="0" name="Interval (seconds)">5</param>
@@ -109,12 +109,12 @@
                     <param id="3" name="Y">0</param>
                 </action>
                 <action id="-7" name="Set size" sid="478999611805940" type="Block">
-                    <param id="0" name="Width">100 + random(400)</param>
-                    <param id="1" name="Height">60 + random(180)</param>
+                    <param id="0" name="Width">random(80, 100)</param>
+                    <param id="1" name="Height">300</param>
                 </action>
                 <action id="-3" name="Set position" sid="973983325225341" type="Block">
-                    <param id="0" name="X">LayoutWidth</param>
-                    <param id="1" name="Y">LayoutHeight - Self.Height</param>
+                    <param id="0" name="X">random(700, 900)</param>
+                    <param id="1" name="Y">random(1000,1100)</param>
                 </action>
                 <action behavior="Bullet" id="3" name="Set angle of motion" sid="229078047464541" type="Block">
                     <param id="0" name="Angle">180</param>

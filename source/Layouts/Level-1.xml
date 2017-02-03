@@ -154,7 +154,7 @@
                                 <jump-strength>650</jump-strength>
                                 <gravity>1300</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
-                                <double-jump>Disabled</double-jump>
+                                <double-jump>Enabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
@@ -201,10 +201,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>7</x>
-                        <y>1130</y>
+                        <x>2</x>
+                        <y>1133</y>
                         <z>0</z>
-                        <width>1941</width>
+                        <width>1486</width>
                         <height>117</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
