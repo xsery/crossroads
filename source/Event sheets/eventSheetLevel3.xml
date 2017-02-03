@@ -184,5 +184,66 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="692983144554741">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="411393162253583" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="267216144010612" type="System">
+                    <param id="0" name="Object to create">pontoBode</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1500</param>
+                    <param id="3" name="Y">random(200, 900)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="410409391877997">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="469949926912182" type="System">
+                    <param id="0" name="Interval (seconds)">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="730790923562515" type="System">
+                    <param id="0" name="Object to create">pontoPentagrama</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1500</param>
+                    <param id="3" name="Y">random(200, 900)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="259075390588164">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="377472242970360" type="System">
+                    <param id="0" name="Interval (seconds)">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="120110194428988" type="System">
+                    <param id="0" name="Object to create">pontoPorcao</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1500</param>
+                    <param id="3" name="Y">random(200, 900)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="526219343026889">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="234811713933824" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="101248232652338" type="pontoBode">
+                    <param id="0" name="Speed">-200</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="416154060781400" type="pontoPentagrama">
+                    <param id="0" name="Speed">-200</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="475544972561020" type="pontoPorcao">
+                    <param id="0" name="Speed">-200</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

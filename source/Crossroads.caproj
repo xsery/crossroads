@@ -75,7 +75,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758131482014693" speed="5">
-                    <frame duration="1" hotspotX="0.514286" hotspotY="0.512821" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.769231" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -301,7 +301,7 @@
                     <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
-            <texture />
+            <texture original-source="C:\Users\irlan.gomes\Documents\fonte\uea\crossroads\source\Assets\fundo.png" />
         </object-type>
         <object-type name="buracofase2" sid="370885917308559">
             <plugin id="Sprite" />
@@ -357,6 +357,9 @@
                 <behavior-type name="Solid" sid="164261911643897">
                     <behavior id="solid" />
                 </behavior-type>
+                <behavior-type name="Bullet" sid="773087513985466">
+                    <behavior id="Bullet" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869253440795106" speed="5">
@@ -370,6 +373,9 @@
                 <behavior-type name="Solid" sid="682661737610219">
                     <behavior id="solid" />
                 </behavior-type>
+                <behavior-type name="Bullet" sid="968291153806653">
+                    <behavior id="Bullet" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="778970836511030" speed="5">
@@ -382,6 +388,9 @@
             <behaviors>
                 <behavior-type name="Solid" sid="366779576107570">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="100496229464886">
+                    <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
             <animation-folder>

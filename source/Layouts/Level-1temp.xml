@@ -167,11 +167,11 @@
                         <x>205</x>
                         <y>1069</y>
                         <z>0</z>
-                        <width>112.12172699</width>
-                        <height>124.935638428</height>
+                        <width>115.325202942</width>
+                        <height>83.290428162</height>
                         <depth>0</depth>
-                        <hotspotX>0.514285743</hotspotX>
-                        <hotspotY>0.512820542</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.769230783</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
