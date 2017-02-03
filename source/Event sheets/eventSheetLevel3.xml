@@ -3,9 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>eventSheetLevel3</name>
     <events>
-        <variable constant="0" name="score2" sid="388922138286126" static="0" type="number">0</variable>
-        <variable constant="0" name="gapsize" sid="303640137621459" static="0" type="number">300</variable>
-        <variable constant="0" name="morreu" sid="164856934307423" static="0" type="number">0</variable>
         <event-block sid="482735975184735">
             <conditions>
                 <condition id="-1" name="Compare X" sid="791155263266265" type="bg">
@@ -29,23 +26,6 @@
             <actions>
                 <action id="-1" name="Set X" sid="944304867810653" type="grama">
                     <param id="0" name="X">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="940532485274736">
-            <conditions>
-                <condition disabled="1" id="0" name="On key pressed" sid="747805559141347" type="Keyboard">
-                    <param id="0" name="Key">32 (Space)</param>
-                </condition>
-                <condition disabled="1" id="-14" name="Compare variable" sid="730237544090697" type="System">
-                    <param id="0" name="Variable">morreu</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" disabled="1" id="9" name="Set vector Y" sid="948552538369496" type="passaro">
-                    <param id="0" name="Vector Y">-650</param>
                 </action>
             </actions>
         </event-block>
@@ -76,25 +56,6 @@
                 <action id="-20" name="Rotate toward angle" sid="458105702854202" type="passaro">
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">45</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block any="1" disabled="1" sid="747465717419561">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="719761845158139" type="passaro">
-                    <param id="0" name="Object">grama</param>
-                </condition>
-                <condition id="0" name="On collision with another object" sid="596100764713135" type="passaro">
-                    <param id="0" name="Object">canobaixo</param>
-                </condition>
-                <condition id="0" name="On collision with another object" sid="927172523651145" type="passaro">
-                    <param id="0" name="Object">canocima</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="851121528236235" type="System">
-                    <param id="0" name="Variable">morreu</param>
-                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -130,12 +91,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action disabled="1" id="-3" name="Create object" sid="611919482539141" type="System">
-                    <param id="0" name="Object to create">canocima</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">530</param>
-                    <param id="3" name="Y">random(500, 700)</param>
-                </action>
                 <action id="-3" name="Create object" sid="538850971858021" type="System">
                     <param id="0" name="Object to create">canobaixo</param>
                     <param id="1" name="Layer">1</param>
@@ -144,50 +99,88 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="726634998234623">
-            <conditions>
-                <condition id="-1" name="Compare X" sid="270880750211780" type="canocima">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">passaro.X</param>
-                </condition>
-                <condition id="-7" name="Compare instance variable" sid="782565350841816" type="canocima">
-                    <param id="0" name="Instance variable">passou</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="849119392245301" type="canocima">
-                    <param id="0" name="Instance variable">passou</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-10" name="Add to" sid="504807208119734" type="System">
-                    <param id="0" name="Variable">score</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Set text" sid="942782385947411" type="Text">
-                    <param id="0" name="Text">score</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="151512803645610">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="658454504708064" type="System">
-                    <param id="0" name="Interval (seconds)">30</param>
+                    <param id="0" name="Interval (seconds)">5</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="451279697173720" type="System">
-                    <param id="0" name="Object to create">buracotop</param>
+                    <param id="0" name="Object to create">buracofase2</param>
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="X">1535</param>
                     <param id="3" name="Y">299</param>
                 </action>
-                <action id="-3" name="Create object" sid="803116882549976" type="System">
-                    <param id="0" name="Object to create">canobaixo</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="261193405338494">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="122434846606405" type="passaro">
+                    <param id="0" name="Object">buracofase2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="681798848815173" type="System">
+                    <param id="0" name="Layout">Level-4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556915856061078">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="768028985635611" type="passaro">
+                    <param id="0" name="Object">pontoBode</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="827656420699672" type="pontoBode" />
+                <action id="-10" name="Add to" sid="416736608230739" type="System">
+                    <param id="0" name="Variable">scoreBode</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="220918185457147">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="177639383811756" type="passaro">
+                    <param id="0" name="Object">pontoPentagrama</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="631321521816024" type="pontoPentagrama" />
+                <action id="-10" name="Add to" sid="924216680514822" type="System">
+                    <param id="0" name="Variable">scorePentagrama</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="646019710225406">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="998385255559086" type="passaro">
+                    <param id="0" name="Object">pontoPorcao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="874535006377122" type="pontoPorcao" />
+                <action id="-10" name="Add to" sid="738163065991409" type="System">
+                    <param id="0" name="Variable">scorePoção</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="456049664355044">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="570693654325311" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="565225376719443" type="scoreBode">
+                    <param id="0" name="Text">scoreBode</param>
+                </action>
+                <action id="0" name="Set text" sid="501559084285045" type="scorePentagrama">
+                    <param id="0" name="Text">scorePentagrama</param>
+                </action>
+                <action id="0" name="Set text" sid="714757571963130" type="scorePoção">
+                    <param id="0" name="Text">scorePoção</param>
                 </action>
             </actions>
         </event-block>

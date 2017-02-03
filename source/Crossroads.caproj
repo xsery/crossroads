@@ -154,7 +154,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="545294355809540">
+        <object-type name="scoreBode" sid="545294355809540">
             <plugin id="Text" />
         </object-type>
         <object-type name="pontos" sid="385017051141673">
@@ -172,6 +172,11 @@
         </object-type>
         <object-type name="wall" sid="589883026634290">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="268369448404385">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="889462368217684" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -181,8 +186,8 @@
         <object-type name="plataforma" sid="179678773843399">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="454773160711930">
-                    <behavior id="solid" />
+                <behavior-type name="Jumpthru" sid="756679931336552">
+                    <behavior id="jumpthru" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -215,12 +220,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text2" sid="550310674789022">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text3" sid="684398666450046">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="Sprite3" sid="836032114328454">
             <plugin id="Sprite" />
             <animation-folder>
@@ -228,9 +227,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="Text4" sid="979123526355950">
-            <plugin id="Text" />
         </object-type>
         <object-type name="grama" sid="814683380508389">
             <plugin id="TiledBg" />
@@ -307,7 +303,7 @@
             </behaviors>
             <texture />
         </object-type>
-        <object-type name="buracotop" sid="370885917308559">
+        <object-type name="buracofase2" sid="370885917308559">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="493576232777762">
@@ -323,10 +319,141 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="playerLevel2" sid="374760869161098">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="204775915729175">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="584831898174603">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783261352105426" speed="5">
+                    <frame duration="1" hotspotX="3.47222" hotspotY="4.80769" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bottonLeft" sid="397611712470349">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603695095151617" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonRight" sid="422387629862028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563203959693842" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pontoPentagrama" sid="849100461178761">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="164261911643897">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="869253440795106" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pontoPorcao" sid="968306778864652">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="682661737610219">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="778970836511030" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pontoBode" sid="145872775238353">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="366779576107570">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="908518447440892" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wallTop" sid="628929816102945">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="278915466035798">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835278078707819" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chaoLevel2" sid="671173954462768">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562765441594368" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="candle" sid="643372738080659">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="986677330250293">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="906012515088995">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703646180806500" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="scorePoção" sid="726610515857189">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="scorePentagrama" sid="901732182585786">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="buracofase1" sid="961642364167598">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="550867623520239">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="804810761170470">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888620022678951" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Level-1.xml</layout>
+        <layout>Level-1temp.xml</layout>
         <layout>Level-2.xml</layout>
         <layout>Level-3.xml</layout>
         <layout>Level-4.xml</layout>

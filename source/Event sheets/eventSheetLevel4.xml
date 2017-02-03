@@ -222,7 +222,7 @@
                 <condition id="-1" name="Every tick" sid="146981944930274" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="101737998326528" type="Text">
+                <action id="0" name="Set text" sid="101737998326528" type="scoreBode">
                     <param id="0" name="Text">score</param>
                 </action>
             </actions>

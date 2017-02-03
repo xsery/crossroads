@@ -456,7 +456,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Text" uid="8">
+                <instance type="scoreBode" uid="8">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
