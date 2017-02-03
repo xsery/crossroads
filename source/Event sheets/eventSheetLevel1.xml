@@ -12,7 +12,7 @@
             <conditions>
                 <condition id="-1" name="Compare X" sid="886804874294560" type="bg">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(bg.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">bg.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
