@@ -12,7 +12,7 @@
             <conditions>
                 <condition id="-1" name="Compare X" sid="886804874294560" type="bgLevel1">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(bgLevel1.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">bgLevel1.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
@@ -25,7 +25,7 @@
             <conditions>
                 <condition id="-1" name="Compare X" sid="613104042223280" type="bgLevel1Street">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(bgLevel1Street.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">bgLevel1Street.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
@@ -149,7 +149,7 @@
         </event-block>
         <event-group description="" sid="529995586841229" title="ObjectsRitual">
             <sub-events>
-                <event-block sid="226068553107372">
+                <event-block disabled="1" sid="226068553107372">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="896823106215245" type="System">
                             <param id="0" name="Interval (seconds)">10</param>
@@ -159,8 +159,8 @@
                         <action id="-3" name="Create object" sid="378468124870804" type="System">
                             <param id="0" name="Object to create">Bode</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">1700</param>
-                            <param id="3" name="Y">random(500, 1000)</param>
+                            <param id="2" name="X">1500</param>
+                            <param id="3" name="Y">random(200, 1000)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -175,7 +175,7 @@
                             <param id="0" name="Object to create">Pentagrama</param>
                             <param id="1" name="Layer">1</param>
                             <param id="2" name="X">1500</param>
-                            <param id="3" name="Y">random(200, 900)</param>
+                            <param id="3" name="Y">random(200, 1000)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -190,7 +190,7 @@
                             <param id="0" name="Object to create">Pocao</param>
                             <param id="1" name="Layer">1</param>
                             <param id="2" name="X">1500</param>
-                            <param id="3" name="Y">random(200, 900)</param>
+                            <param id="3" name="Y">random(200, 1000)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -247,20 +247,20 @@
                 <event-block sid="724651482285379">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="655294558150133" type="System">
-                            <param id="0" name="Interval (seconds)">10</param>
+                            <param id="0" name="Interval (seconds)">3</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Create object" sid="670484017908057" type="System">
                             <param id="0" name="Object to create">CruzLevel1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">1580</param>
+                            <param id="2" name="X">1500</param>
                             <param id="3" name="Y">1110</param>
                         </action>
                         <action disabled="1" id="-16" name="Wait" sid="313413251718368" type="System">
                             <param id="0" name="Seconds">2</param>
                         </action>
-                        <action disabled="1" id="4" name="Set animation" sid="995665909911095" type="CruzLevel1">
+                        <action id="4" name="Set animation" sid="995665909911095" type="CruzLevel1">
                             <param id="0" name="Animation">&quot;Default&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -269,7 +269,7 @@
                 <event-block disabled="1" sid="261207423867902">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="116375815700679" type="System">
-                            <param id="0" name="Interval (seconds)">5</param>
+                            <param id="0" name="Interval (seconds)">7</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -277,7 +277,7 @@
                             <param id="0" name="Object to create">incenso</param>
                             <param id="1" name="Layer">1</param>
                             <param id="2" name="X">1510</param>
-                            <param id="3" name="Y">600</param>
+                            <param id="3" name="Y">1110</param>
                         </action>
                         <action id="4" name="Set animation" sid="613674969916996" type="incenso">
                             <param id="0" name="Animation">&quot;Default&quot;</param>
@@ -295,8 +295,8 @@
                         <action id="-3" name="Create object" sid="514417445142876" type="System">
                             <param id="0" name="Object to create">VinhoLevel1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">1510</param>
-                            <param id="3" name="Y">600</param>
+                            <param id="2" name="X">1500</param>
+                            <param id="3" name="Y">1110</param>
                         </action>
                         <action id="4" name="Set animation" sid="970710906135527" type="VinhoLevel1">
                             <param id="0" name="Animation">&quot;Default&quot;</param>

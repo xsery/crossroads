@@ -1375,6 +1375,9 @@
                 <behavior-type name="Bullet" sid="648180612404317">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="331849257654345">
+                    <behavior id="destroy" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="938287055235778" speed="5">
@@ -1419,6 +1422,17 @@
         </object-type>
         <object-type name="incenso" sid="124216698818162">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="721048135174234">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="219922534397214">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="189071065680548">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646654820772989" speed="5">
                     <frame duration="1" hotspotX="0.522523" hotspotY="0.508475" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_03.png">
