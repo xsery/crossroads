@@ -61,7 +61,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede" uid="30">
+                <instance type="wallLeftLevel4" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -90,7 +90,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede" uid="11">
+                <instance type="wallLeftLevel4" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -138,7 +138,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="1">
+                <instance type="playerLevel4" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -167,11 +167,11 @@
                         <x>205</x>
                         <y>1069</y>
                         <z>0</z>
-                        <width>115.325202942</width>
-                        <height>83.290428162</height>
+                        <width>371.603424072</width>
+                        <height>426.062561035</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.769230783</hotspotY>
+                        <hotspotX>0.456896544</hotspotX>
+                        <hotspotY>0.187969923</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -231,35 +231,7 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="DistanceDisplay" uid="3">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-37.6,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>43</x>
-                        <y>320</y>
-                        <z>0</z>
-                        <width>500.599609375</width>
-                        <height>75.089942932</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
     </layers>

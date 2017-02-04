@@ -66,7 +66,7 @@
             </behaviors>
             <texture />
         </object-type>
-        <object-type name="Player" sid="701196242491711">
+        <object-type name="playerLevel4" sid="701196242491711">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="305784128005496">
@@ -74,8 +74,31 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758131482014693" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.769231" />
+                <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="758131482014693" speed="5">
+                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch2.png">
+                        <collision-poly>
+                            <point x="0.318966" y="0.165414" />
+                            <point x="0.448276" y="0.135338" />
+                            <point x="0.715517" y="0.0526316" />
+                            <point x="0.87069" y="0.180451" />
+                            <point x="0.991379" y="0.556391" />
+                            <point x="0.448276" y="0.984962" />
+                            <point x="0.0258621" y="0.458647" />
+                            <point x="0.275862" y="0.180451" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.431034" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch1.png">
+                        <collision-poly>
+                            <point x="0.301724" y="0.172932" />
+                            <point x="0.422414" y="0.135338" />
+                            <point x="0.637931" y="0.0977444" />
+                            <point x="0.862069" y="0.180451" />
+                            <point x="0.982759" y="0.571429" />
+                            <point x="0.422414" y="0.977444" />
+                            <point x="0.0344828" y="0.428571" />
+                            <point x="0.267241" y="0.180451" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -84,9 +107,6 @@
         </object-type>
         <object-type name="Keyboard" sid="809709927897581">
             <plugin id="Keyboard" />
-        </object-type>
-        <object-type name="DistanceDisplay" sid="117149036245268">
-            <plugin id="Text" />
         </object-type>
         <object-type name="Sprite" sid="654117160845522">
             <plugin id="Sprite" />
@@ -128,7 +148,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="parede" sid="749149566003354">
+        <object-type name="wallLeftLevel4" sid="749149566003354">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="726942170417043">
@@ -141,7 +161,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="buraco" sid="186321589306841">
+        <object-type name="buracoLevel4" sid="186321589306841">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="229061143189464">
@@ -157,7 +177,7 @@
         <object-type name="scoreBode" sid="545294355809540">
             <plugin id="Text" />
         </object-type>
-        <object-type name="wall" sid="589883026634290">
+        <object-type name="wallLeft" sid="589883026634290">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="268369448404385">
@@ -180,14 +200,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226224816738679" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="bgfase3" sid="138048228424724">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138053205338104" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\irlan.gomes\Documents\fonte\uea\koryo\assets\bg-1.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -216,7 +228,7 @@
             </behaviors>
             <texture />
         </object-type>
-        <object-type name="passaro" sid="634710559928780">
+        <object-type name="playerLevel1and3" sid="634710559928780">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="319992665561079">
@@ -227,8 +239,31 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243523677537126" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.52" />
+                <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="243523677537126" speed="5">
+                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch2.png">
+                        <collision-poly>
+                            <point x="0.318966" y="0.165414" />
+                            <point x="0.448276" y="0.135338" />
+                            <point x="0.715517" y="0.0526316" />
+                            <point x="0.87069" y="0.180451" />
+                            <point x="0.991379" y="0.556391" />
+                            <point x="0.448276" y="0.984962" />
+                            <point x="0.0258621" y="0.458647" />
+                            <point x="0.275862" y="0.180451" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.431034" hotspotY="0.218045" original-source="C:\Users\AlunoPos\Desktop\litch1.png">
+                        <collision-poly>
+                            <point x="0.301724" y="0.172932" />
+                            <point x="0.422414" y="0.135338" />
+                            <point x="0.637931" y="0.0977444" />
+                            <point x="0.862069" y="0.180451" />
+                            <point x="0.982759" y="0.571429" />
+                            <point x="0.422414" y="0.977444" />
+                            <point x="0.0344828" y="0.428571" />
+                            <point x="0.267241" y="0.180451" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -273,7 +308,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bg" sid="879193640066708">
+        <object-type name="bgLevel13" sid="879193640066708">
             <plugin id="TiledBg" />
             <behaviors>
                 <behavior-type name="Bullet" sid="617009760725032">
@@ -309,46 +344,72 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783261352105426" speed="5">
-                    <frame duration="1" hotspotX="3.47222" hotspotY="4.80769" />
+                <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="783261352105426" speed="5">
+                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch2.png">
+                        <collision-poly>
+                            <point x="0.318966" y="0.165414" />
+                            <point x="0.448276" y="0.135338" />
+                            <point x="0.715517" y="0.0526316" />
+                            <point x="0.87069" y="0.180451" />
+                            <point x="0.991379" y="0.556391" />
+                            <point x="0.448276" y="0.984962" />
+                            <point x="0.0258621" y="0.458647" />
+                            <point x="0.275862" y="0.180451" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.431034" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch1.png">
+                        <collision-poly>
+                            <point x="0.301724" y="0.172932" />
+                            <point x="0.422414" y="0.135338" />
+                            <point x="0.637931" y="0.0977444" />
+                            <point x="0.862069" y="0.180451" />
+                            <point x="0.982759" y="0.571429" />
+                            <point x="0.422414" y="0.977444" />
+                            <point x="0.0344828" y="0.428571" />
+                            <point x="0.267241" y="0.180451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="719455723486903" speed="5">
+                    <frame duration="1" hotspotX="0.633333" hotspotY="0.163934" original-source="C:\Users\AlunoPos\Desktop\litchDead1.png">
+                        <collision-poly>
+                            <point x="0.375" y="0.0163934" />
+                            <point x="0.625" y="0.204918" />
+                            <point x="0.65" y="0.245902" />
+                            <point x="0.341667" y="0.155738" />
+                            <point x="0.625" y="0.983607" />
+                            <point x="0.208333" y="0.467213" />
+                            <point x="0.308333" y="0.155738" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.608974" hotspotY="0.234375" original-source="C:\Users\AlunoPos\Desktop\litchDead2.png">
+                        <collision-poly>
+                            <point x="0.717949" y="0.460938" />
+                            <point x="0.608974" y="0.46875" />
+                            <point x="0.75641" y="0.15625" />
+                            <point x="0.974359" y="0.226563" />
+                            <point x="0.961538" y="0.554688" />
+                            <point x="0.608974" y="0.578125" />
+                            <point x="0.0320513" y="0.835938" />
+                            <point x="0.416667" y="0.226563" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bottonLeft" sid="397611712470349">
+        <object-type name="bottonLeftLevel2" sid="397611712470349">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603695095151617" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48802-8f0e-256px.png">
-                        <collision-poly>
-                            <point x="0.363281" y="0.363281" />
-                            <point x="0.5" y="0.222656" />
-                            <point x="0.738281" y="0.261719" />
-                            <point x="0.515625" y="0.5" />
-                            <point x="0.738281" y="0.738281" />
-                            <point x="0.5" y="0.777344" />
-                            <point x="0.363281" y="0.636719" />
-                            <point x="0.257813" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48802-8f0e-256px.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="buttonRight" sid="422387629862028">
+        <object-type name="buttonRightLevel2" sid="422387629862028">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="563203959693842" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48803-f8ed-512px.png">
-                        <collision-poly>
-                            <point x="0.261719" y="0.261719" />
-                            <point x="0.5" y="0.226563" />
-                            <point x="0.636719" y="0.363281" />
-                            <point x="0.742188" y="0.5" />
-                            <point x="0.636719" y="0.636719" />
-                            <point x="0.5" y="0.773438" />
-                            <point x="0.261719" y="0.738281" />
-                            <point x="0.486328" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48803-f8ed-512px.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -415,6 +476,11 @@
         </object-type>
         <object-type name="chaoLevel2" sid="671173954462768">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="916018373992952">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="562765441594368" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -433,15 +499,15 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703646180806500" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\candle.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.491525" original-source="C:\Users\fernandodantas\Desktop\candle.png">
                         <collision-poly>
-                            <point x="0.359551" y="0.359551" />
-                            <point x="0.5" y="0.011236" />
-                            <point x="0.589888" y="0.410112" />
-                            <point x="0.634831" y="0.5" />
-                            <point x="0.629214" y="0.629214" />
-                            <point x="0.5" y="1" />
-                            <point x="0.342697" y="0.5" />
+                            <point x="0.638888" y="0.067798" />
+                            <point x="0.983333" y="0.491525" />
+                            <point x="0.588889" y="0.762713" />
+                            <point x="0.5" y="0.898304" />
+                            <point x="0.372222" y="0.881357" />
+                            <point x="0.00555556" y="0.491525" />
+                            <point x="0.5" y="0.0169503" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -473,18 +539,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340886899092081" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48803-f8ed-512px.png">
-                        <collision-poly>
-                            <point x="0.261719" y="0.261719" />
-                            <point x="0.5" y="0.226563" />
-                            <point x="0.636719" y="0.363281" />
-                            <point x="0.742188" y="0.5" />
-                            <point x="0.636719" y="0.636719" />
-                            <point x="0.5" y="0.773438" />
-                            <point x="0.261719" y="0.738281" />
-                            <point x="0.486328" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48803-f8ed-512px.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -492,25 +547,48 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526552529386760" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48802-8f0e-256px.png">
-                        <collision-poly>
-                            <point x="0.363281" y="0.363281" />
-                            <point x="0.5" y="0.222656" />
-                            <point x="0.738281" y="0.261719" />
-                            <point x="0.515625" y="0.5" />
-                            <point x="0.738281" y="0.738281" />
-                            <point x="0.5" y="0.777344" />
-                            <point x="0.363281" y="0.636719" />
-                            <point x="0.257813" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\fernandodantas\Desktop\plainicon.com-48802-8f0e-256px.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bgLevel2" sid="645423224031165">
+        <object-type name="bgLevel2" sid="455913976959858">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629569734363625" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="728885515201236" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buracoLevel2" sid="588991871031866">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="484807733010960">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="988956826928507" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wallRightLevel2" sid="498139712564734">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="226318961365250">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="791591496732996" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wallRightLevel4" sid="794115113554085">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715169206421948" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -520,21 +598,21 @@
     <layout-folder>
         <layout>Level-1.xml</layout>
         <layout>Level-1temp.xml</layout>
-        <layout>Level-2.xml</layout>
         <layout>Level-3.xml</layout>
         <layout>Level-4.xml</layout>
         <layout>layoutGameover.xml</layout>
         <layout>layoutTelaInicial.xml</layout>
         <layout>layoutTelaFinal.xml</layout>
+        <layout>Level-2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>eventSheetLevel1.xml</event-sheet>
         <event-sheet>eventSheetLevel4.xml</event-sheet>
-        <event-sheet>eventSheetLevel2.xml</event-sheet>
         <event-sheet>eventSheetLayoutTelaInicial.xml</event-sheet>
         <event-sheet>eventSheetLayoutTelaFinal.xml</event-sheet>
         <event-sheet>eventSheetLayoutGameover.xml</event-sheet>
         <event-sheet>eventSheetLevel3.xml</event-sheet>
+        <event-sheet>eventSheetLevel2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">

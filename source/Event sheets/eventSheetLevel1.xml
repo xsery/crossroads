@@ -5,18 +5,18 @@
     <events>
         <variable constant="0" name="scorePoção" sid="418417091164421" static="0" type="number">0</variable>
         <variable constant="0" name="scoreBode" sid="377683470925483" static="0" type="number">0</variable>
+        <variable constant="0" name="scorePentagrama" sid="264275843076071" static="0" type="number">0</variable>
         <variable constant="0" name="gapsize" sid="303640137621459" static="0" type="number">300</variable>
         <variable constant="0" name="morreu" sid="164856934307423" static="0" type="number">0</variable>
-        <variable constant="0" name="scorePentagrama" sid="264275843076071" static="0" type="number">0</variable>
         <event-block sid="933395249605931">
             <conditions>
-                <condition id="-1" name="Compare X" sid="886804874294560" type="bg">
+                <condition id="-1" name="Compare X" sid="886804874294560" type="bgLevel13">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">bg.Width/-2</param>
+                    <param id="1" name="X co-ordinate">bgLevel13.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="702652770626529" type="bg">
+                <action id="-1" name="Set X" sid="702652770626529" type="bgLevel13">
                     <param id="0" name="X">0</param>
                 </action>
             </actions>
@@ -37,13 +37,13 @@
         <event-block sid="433885218270080">
             <conditions>
                 <condition id="-8" name="Compare two values" sid="104536639653303" type="System">
-                    <param id="0" name="First value">passaro.Platform.VectorY</param>
+                    <param id="0" name="First value">playerLevel1and3.Platform.VectorY</param>
                     <param id="1" name="Comparison">2</param>
                     <param id="2" name="Second value">0</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-20" name="Rotate toward angle" sid="411063944517002" type="passaro">
+                <action id="-20" name="Rotate toward angle" sid="411063944517002" type="playerLevel1and3">
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">-45</param>
                 </action>
@@ -52,13 +52,13 @@
         <event-block sid="835548516316366">
             <conditions>
                 <condition id="-8" name="Compare two values" sid="157127811649858" type="System">
-                    <param id="0" name="First value">passaro.Platform.VectorY</param>
+                    <param id="0" name="First value">playerLevel1and3.Platform.VectorY</param>
                     <param id="1" name="Comparison">4</param>
                     <param id="2" name="Second value">0</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-20" name="Rotate toward angle" sid="602359874703161" type="passaro">
+                <action id="-20" name="Rotate toward angle" sid="602359874703161" type="playerLevel1and3">
                     <param id="0" name="Degrees">1.0</param>
                     <param id="1" name="Angle">45</param>
                 </action>
@@ -73,7 +73,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="479900319794252" type="bg">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="479900319794252" type="bgLevel13">
                     <param id="0" name="State">0</param>
                 </action>
                 <action behavior="Bullet" id="5" name="Set enabled" sid="441524727286145" type="canobaixo">
@@ -121,19 +121,22 @@
         </event-block>
         <event-block sid="788639452734901">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="477074966162291" type="passaro">
+                <condition id="0" name="On collision with another object" sid="477074966162291" type="playerLevel1and3">
                     <param id="0" name="Object">buracofase1</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="938400537171270" type="System">
+                <action id="-2" name="Go to layout" sid="596531374239920" type="System">
                     <param id="0" name="Layout">Level-2</param>
+                </action>
+                <action id="-16" name="Wait" sid="943823973344705" type="System">
+                    <param id="0" name="Seconds">1.0</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="601825735119837">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="146402030325698" type="passaro">
+                <condition id="0" name="On collision with another object" sid="146402030325698" type="playerLevel1and3">
                     <param id="0" name="Object">pontoBode</param>
                 </condition>
             </conditions>
@@ -147,7 +150,7 @@
         </event-block>
         <event-block sid="240480289972380">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="555480079375222" type="passaro">
+                <condition id="0" name="On collision with another object" sid="555480079375222" type="playerLevel1and3">
                     <param id="0" name="Object">pontoPentagrama</param>
                 </condition>
             </conditions>
@@ -161,7 +164,7 @@
         </event-block>
         <event-block sid="327552649154296">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="976115213155557" type="passaro">
+                <condition id="0" name="On collision with another object" sid="976115213155557" type="playerLevel1and3">
                     <param id="0" name="Object">pontoPorcao</param>
                 </condition>
             </conditions>
@@ -247,6 +250,16 @@
                 </action>
                 <action behavior="Bullet" id="0" name="Set speed" sid="405970936697258" type="pontoPorcao">
                     <param id="0" name="Speed">-200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="713466618003239">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="996557065228296" type="Touch" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="260374086253113" type="playerLevel1and3">
+                    <param id="0" name="Control">2</param>
                 </action>
             </actions>
         </event-block>

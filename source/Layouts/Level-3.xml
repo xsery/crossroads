@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="bg" uid="54">
+                <instance type="bgLevel13" uid="54">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -107,7 +107,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="passaro" uid="56">
+                <instance type="playerLevel1and3" uid="56">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -125,7 +125,7 @@
                                 <max-fall-speed>1600</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -141,11 +141,11 @@
                         <x>306</x>
                         <y>857</y>
                         <z>0</z>
-                        <width>84.597869873</width>
-                        <height>58.748519897</height>
+                        <width>272.593139648</width>
+                        <height>312.542114258</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.519999981</hotspotY>
+                        <hotspotX>0.456896544</hotspotX>
+                        <hotspotY>0.187969923</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -423,7 +423,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="parede" uid="47">
+                <instance type="wallLeftLevel4" uid="47">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -452,7 +452,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede" uid="53">
+                <instance type="wallLeftLevel4" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

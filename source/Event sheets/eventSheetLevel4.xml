@@ -7,8 +7,8 @@
             <sub-events>
                 <event-block sid="877285589678353">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="119822005093272" type="Player">
-                            <param id="0" name="Object">buraco</param>
+                        <condition id="0" name="On collision with another object" sid="119822005093272" type="playerLevel4">
+                            <param id="0" name="Object">buracoLevel4</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -22,10 +22,10 @@
                 </event-block>
                 <event-block sid="954031657686966">
                     <conditions>
-                        <condition behavior="Platform" id="2" name="Is on floor" sid="172687340764263" type="Player" />
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="172687340764263" type="playerLevel4" />
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="472409154312556" type="Player">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="472409154312556" type="playerLevel4">
                             <param id="0" name="Control">2</param>
                         </action>
                     </actions>
@@ -37,7 +37,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="311906123108562" type="Player">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="311906123108562" type="playerLevel4">
                             <param id="0" name="Control">0</param>
                         </action>
                     </actions>
@@ -49,7 +49,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="243540681533428" type="Player">
+                        <action behavior="Platform" id="7" name="Simulate control" sid="243540681533428" type="playerLevel4">
                             <param id="0" name="Control">1</param>
                         </action>
                     </actions>
@@ -70,14 +70,11 @@
                 <action behavior="Bullet" id="0" name="Set speed" sid="763218787952903" type="pontoPorcao">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action behavior="Platform" id="5" name="Set gravity" sid="536102794237145" type="Player">
-                    <param id="0" name="Gravity">-600</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="625654374117520">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="598319887691098" type="Player">
+                <condition id="0" name="On collision with another object" sid="598319887691098" type="playerLevel4">
                     <param id="0" name="Object">pontoBode</param>
                 </condition>
             </conditions>
@@ -91,7 +88,7 @@
         </event-block>
         <event-block sid="911583623468447">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="124917197377783" type="Player">
+                <condition id="0" name="On collision with another object" sid="124917197377783" type="playerLevel4">
                     <param id="0" name="Object">pontoPentagrama</param>
                 </condition>
             </conditions>
@@ -105,7 +102,7 @@
         </event-block>
         <event-block sid="981737551087166">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="372450122807954" type="Player">
+                <condition id="0" name="On collision with another object" sid="372450122807954" type="playerLevel4">
                     <param id="0" name="Object">pontoPorcao</param>
                 </condition>
             </conditions>
@@ -119,7 +116,7 @@
         </event-block>
         <event-block sid="267141730801179">
             <conditions>
-                <condition id="-1" name="Every tick" sid="284004405816308" type="System" />
+                <condition id="-2" name="On start of layout" sid="284004405816308" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="792709367618535" type="scoreBode">

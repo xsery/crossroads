@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="bg" uid="70">
+                <instance type="bgLevel13" uid="70">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -50,9 +50,9 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>0</x>
-                        <y>250</y>
+                        <y>248</y>
                         <z>0</z>
-                        <width>3000</width>
+                        <width>2909</width>
                         <height>1000</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -76,7 +76,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4</x>
+                        <x>0</x>
                         <y>944</y>
                         <z>0</z>
                         <width>3000</width>
@@ -107,7 +107,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="passaro" uid="72">
+                <instance type="playerLevel1and3" uid="72">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -125,7 +125,7 @@
                                 <max-fall-speed>1600</max-fall-speed>
                                 <double-jump>Disabled</double-jump>
                                 <jump-sustain>0</jump-sustain>
-                                <default-controls>Yes</default-controls>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -138,14 +138,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>306</x>
-                        <y>857</y>
+                        <x>290.088012695</x>
+                        <y>832.293762207</y>
                         <z>0</z>
-                        <width>84.597869873</width>
-                        <height>58.748519897</height>
+                        <width>110</width>
+                        <height>130</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.519999981</hotspotY>
+                        <hotspotX>0.456896544</hotspotX>
+                        <hotspotY>0.187969923</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -275,7 +275,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>242</x>
+                        <x>233</x>
                         <y>346</y>
                         <z>0</z>
                         <width>44</width>
@@ -462,7 +462,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="parede" uid="80">
+                <instance type="wallLeftLevel4" uid="80">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -491,7 +491,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="parede" uid="81">
+                <instance type="wallLeftLevel4" uid="81">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
