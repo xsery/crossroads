@@ -15,7 +15,7 @@ Cursed creators:
 
 * Jorge Veiga Junior - Developer / Sound Producer
 
-* Fernando Albino Dantas Filho - Designer
+* Fernando Albino Dantas Filho - Developer
 
 * Yasmim Barreto de Sousa- Designer
 
