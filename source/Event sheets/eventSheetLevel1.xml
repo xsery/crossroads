@@ -23,13 +23,13 @@
         </event-block>
         <event-block sid="155984149555605">
             <conditions>
-                <condition id="-1" name="Compare X" sid="613104042223280" type="Street">
+                <condition id="-1" name="Compare X" sid="613104042223280" type="bgLevel1Street">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(Street.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">-1*(bgLevel1Street.Width-WindowWidth)</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="222027557094931" type="Street">
+                <action id="-1" name="Set X" sid="222027557094931" type="bgLevel1Street">
                     <param id="0" name="X">0</param>
                 </action>
             </actions>
@@ -46,7 +46,7 @@
                 <action behavior="Bullet" id="5" name="Set enabled" sid="479900319794252" type="bgLevel1">
                     <param id="0" name="State">0</param>
                 </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="195061246314106" type="Street">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="195061246314106" type="bgLevel1Street">
                     <param id="0" name="State">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="967700436631754" type="System">
@@ -60,15 +60,15 @@
         <event-block sid="327139880459478">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="284140577105010" type="System">
-                    <param id="0" name="Interval (seconds)">15</param>
+                    <param id="0" name="Interval (seconds)">10</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="318483012618803" type="System">
                     <param id="0" name="Object to create">buracoLevel1</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">1535 </param>
-                    <param id="3" name="Y">878</param>
+                    <param id="2" name="X">1600 </param>
+                    <param id="3" name="Y">1100</param>
                 </action>
             </actions>
         </event-block>
@@ -152,19 +152,19 @@
                 <event-block sid="226068553107372">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="896823106215245" type="System">
-                            <param id="0" name="Interval (seconds)">3</param>
+                            <param id="0" name="Interval (seconds)">10</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Create object" sid="378468124870804" type="System">
                             <param id="0" name="Object to create">Bode</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">1500</param>
-                            <param id="3" name="Y">random(200, 900)</param>
+                            <param id="2" name="X">1700</param>
+                            <param id="3" name="Y">random(500, 1000)</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="646571512972500">
+                <event-block disabled="1" sid="646571512972500">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="989237915869004" type="System">
                             <param id="0" name="Interval (seconds)">5</param>
@@ -179,7 +179,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="196587142675801">
+                <event-block disabled="1" sid="196587142675801">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="951576599694800" type="System">
                             <param id="0" name="Interval (seconds)">9</param>
@@ -228,7 +228,12 @@
         </event-block>
         <event-block sid="288958247583119">
             <conditions>
-                <condition behavior="Platform" id="9" name="On landed" sid="968112961871106" type="playerLevel1and3" />
+                <condition behavior="Platform" id="2" name="Is on floor" sid="968112961871106" type="playerLevel1and3" />
+                <condition id="-8" name="Compare two values" sid="864605449834175" type="System">
+                    <param id="0" name="First value">morreu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="233937356096562" type="playerLevel1and3">
@@ -242,23 +247,26 @@
                 <event-block sid="724651482285379">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="655294558150133" type="System">
-                            <param id="0" name="Interval (seconds)">3.0</param>
+                            <param id="0" name="Interval (seconds)">10</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Create object" sid="670484017908057" type="System">
                             <param id="0" name="Object to create">CruzLevel1</param>
                             <param id="1" name="Layer">1</param>
-                            <param id="2" name="X">1510</param>
-                            <param id="3" name="Y">random(600, 900)</param>
+                            <param id="2" name="X">1580</param>
+                            <param id="3" name="Y">1110</param>
                         </action>
-                        <action id="4" name="Set animation" sid="995665909911095" type="CruzLevel1">
+                        <action disabled="1" id="-16" name="Wait" sid="313413251718368" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action disabled="1" id="4" name="Set animation" sid="995665909911095" type="CruzLevel1">
                             <param id="0" name="Animation">&quot;Default&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="261207423867902">
+                <event-block disabled="1" sid="261207423867902">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="116375815700679" type="System">
                             <param id="0" name="Interval (seconds)">5</param>
@@ -277,7 +285,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="573384594558873">
+                <event-block disabled="1" sid="573384594558873">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="799716494829213" type="System">
                             <param id="0" name="Interval (seconds)">7</param>

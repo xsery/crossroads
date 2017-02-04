@@ -544,11 +544,11 @@
                         <x>483</x>
                         <y>-127</y>
                         <z>0</z>
-                        <width>110</width>
-                        <height>130</height>
+                        <width>141.293106079</width>
+                        <height>134.88722229</height>
                         <depth>0</depth>
-                        <hotspotX>0.456896544</hotspotX>
-                        <hotspotY>0.187969923</hotspotY>
+                        <hotspotX>0.516778529</hotspotX>
+                        <hotspotY>0.217391297</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

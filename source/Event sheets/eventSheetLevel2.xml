@@ -36,6 +36,10 @@
                 <action behavior="Platform" id="7" name="Simulate control" sid="737516214640719" type="playerLevel2">
                     <param id="0" name="Control">2</param>
                 </action>
+                <action id="4" name="Set animation" sid="195401004809362" type="playerLevel2">
+                    <param id="0" name="Animation">&quot;jumping&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="330926590995423">

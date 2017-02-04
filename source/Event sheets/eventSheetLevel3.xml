@@ -5,57 +5,27 @@
     <events>
         <event-block sid="482735975184735">
             <conditions>
-                <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel1">
+                <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel3">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">bgLevel1.Width/-2</param>
+                    <param id="1" name="X co-ordinate">-1*(bgLevel3.Width-WindowWidth)</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="760573729877550" type="bgLevel1">
+                <action id="-1" name="Set X" sid="760573729877550" type="bgLevel3">
                     <param id="0" name="X">0</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="524726682766297">
             <conditions>
-                <condition id="-1" name="Compare X" sid="862847409916424" type="Street">
+                <condition id="-1" name="Compare X" sid="862847409916424" type="StreetLevel3">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(Street.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">-1*(StreetLevel3.Width-WindowWidth)</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="944304867810653" type="Street">
+                <action id="-1" name="Set X" sid="944304867810653" type="StreetLevel3">
                     <param id="0" name="X">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="446475928547450">
-            <conditions>
-                <condition id="-8" name="Compare two values" sid="618632142674987" type="System">
-                    <param id="0" name="First value">playerLevel1and3.Platform.VectorY</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Second value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-20" name="Rotate toward angle" sid="163595960092923" type="playerLevel1and3">
-                    <param id="0" name="Degrees">1.0</param>
-                    <param id="1" name="Angle">-45</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="335717277373806">
-            <conditions>
-                <condition id="-8" name="Compare two values" sid="593587891180100" type="System">
-                    <param id="0" name="First value">playerLevel1and3.Platform.VectorY</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Second value">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-20" name="Rotate toward angle" sid="458105702854202" type="playerLevel1and3">
-                    <param id="0" name="Degrees">1.0</param>
-                    <param id="1" name="Angle">45</param>
                 </action>
             </actions>
         </event-block>
@@ -68,10 +38,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="706149782989274" type="bgLevel1">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="706149782989274" type="bgLevel3">
                     <param id="0" name="State">0</param>
                 </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="691244765866646" type="CruzLevel1">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="691244765866646" type="StreetLevel3">
                     <param id="0" name="State">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="382327607892642" type="System">
@@ -99,25 +69,27 @@
         <event-block sid="151512803645610">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="658454504708064" type="System">
-                    <param id="0" name="Interval (seconds)">5</param>
+                    <param id="0" name="Interval (seconds)">10</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="451279697173720" type="System">
-                    <param id="0" name="Object to create">buracofase2</param>
+                    <param id="0" name="Object to create">buracoLevel3</param>
                     <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">1535</param>
-                    <param id="3" name="Y">299</param>
+                    <param id="2" name="X">1634</param>
+                    <param id="3" name="Y">570</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="261193405338494">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="122434846606405" type="playerLevel1and3">
-                    <param id="0" name="Object">buracofase2</param>
+                    <param id="0" name="Object">buracoLevel3</param>
                 </condition>
             </conditions>
             <actions>
+                <action id="-9" name="Destroy" sid="415909160574087" type="playerLevel1and3" />
+                <action id="-9" name="Destroy" sid="413254686091770" type="buracoLevel3" />
                 <action id="-2" name="Go to layout" sid="681798848815173" type="System">
                     <param id="0" name="Layout">Level-4</param>
                 </action>
@@ -252,6 +224,10 @@
             <actions>
                 <action behavior="Platform" id="7" name="Simulate control" sid="906074031285409" type="playerLevel1and3">
                     <param id="0" name="Control">2</param>
+                </action>
+                <action id="4" name="Set animation" sid="628334882143464" type="playerLevel1and3">
+                    <param id="0" name="Animation">&quot;jumping&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

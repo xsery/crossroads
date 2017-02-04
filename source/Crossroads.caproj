@@ -331,14 +331,14 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Street" sid="814683380508389">
+        <object-type name="StreetLevel3" sid="814683380508389">
             <plugin id="TiledBg" />
             <behaviors>
                 <behavior-type name="Bullet" sid="654464644649442">
                     <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\level1barra.png" />
+            <texture original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\level3barra.png" />
         </object-type>
         <object-type name="playerLevel1and3" sid="634710559928780">
             <plugin id="Sprite" />
@@ -351,120 +351,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="243523677537126" speed="5">
-                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch2.png">
-                        <collision-poly>
-                            <point x="0.318966" y="0.165414" />
-                            <point x="0.448276" y="0.135338" />
-                            <point x="0.715517" y="0.0526316" />
-                            <point x="0.87069" y="0.180451" />
-                            <point x="0.991379" y="0.556391" />
-                            <point x="0.448276" y="0.984962" />
-                            <point x="0.0258621" y="0.458647" />
-                            <point x="0.275862" y="0.180451" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.431034" hotspotY="0.218045" original-source="C:\Users\AlunoPos\Desktop\litch1.png">
-                        <collision-poly>
-                            <point x="0.301724" y="0.172932" />
-                            <point x="0.422414" y="0.135338" />
-                            <point x="0.637931" y="0.0977444" />
-                            <point x="0.862069" y="0.180451" />
-                            <point x="0.982759" y="0.571429" />
-                            <point x="0.422414" y="0.977444" />
-                            <point x="0.0344828" y="0.428571" />
-                            <point x="0.267241" y="0.180451" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="2" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="149500476168648" speed="5">
-                    <frame duration="1" hotspotX="0.633333" hotspotY="0.163934" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_14.png">
-                        <collision-poly>
-                            <point x="0.375" y="0.0163934" />
-                            <point x="0.625" y="0.204918" />
-                            <point x="0.65" y="0.245902" />
-                            <point x="0.341667" y="0.155738" />
-                            <point x="0.625" y="0.983607" />
-                            <point x="0.208333" y="0.467213" />
-                            <point x="0.308333" y="0.155738" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.615385" hotspotY="0.234375" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_15.png">
-                        <collision-poly>
-                            <point x="0.717949" y="0.460938" />
-                            <point x="0.608974" y="0.46875" />
-                            <point x="0.75641" y="0.15625" />
-                            <point x="0.974359" y="0.226563" />
-                            <point x="0.961538" y="0.554688" />
-                            <point x="0.608974" y="0.578125" />
-                            <point x="0.0320513" y="0.835938" />
-                            <point x="0.416667" y="0.226563" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="5" loop="0" name="jumping" pingpong="0" repeatcount="1" repeatto="0" sid="983737185373462" speed="5">
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.502326" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_08.png">
-                        <collision-poly>
-                            <point x="0.497925" y="0.455814" />
-                            <point x="0.609959" y="0.437209" />
-                            <point x="0.73029" y="0.497674" />
-                            <point x="0.788382" y="0.762791" />
-                            <point x="0.497925" y="0.995349" />
-                            <point x="0.340249" y="0.618605" />
-                            <point x="0.419087" y="0.497674" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.502326" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_09.png">
-                        <collision-poly>
-                            <point x="0.294606" y="0.330233" />
-                            <point x="0.497925" y="0.24186" />
-                            <point x="0.713693" y="0.32093" />
-                            <point x="0.705394" y="0.497674" />
-                            <point x="0.676349" y="0.637209" />
-                            <point x="0.497925" y="0.767442" />
-                            <point x="0.219917" y="0.753488" />
-                            <point x="0.232365" y="0.497674" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.502326" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_10.png">
-                        <collision-poly>
-                            <point x="0.215768" y="0.24186" />
-                            <point x="0.497925" y="0.232558" />
-                            <point x="0.692946" y="0.344186" />
-                            <point x="0.755187" y="0.497674" />
-                            <point x="0.713693" y="0.67907" />
-                            <point x="0.497925" y="0.781395" />
-                            <point x="0.311203" y="0.651163" />
-                            <point x="0.240664" y="0.497674" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.502326" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_11.png">
-                        <collision-poly>
-                            <point x="0.261411" y="0.293023" />
-                            <point x="0.497925" y="0.237209" />
-                            <point x="0.692946" y="0.344186" />
-                            <point x="0.755187" y="0.497674" />
-                            <point x="0.713693" y="0.67907" />
-                            <point x="0.497925" y="0.781395" />
-                            <point x="0.311203" y="0.651163" />
-                            <point x="0.232365" y="0.497674" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.502075" hotspotY="0.502326" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_12.png">
-                        <collision-poly>
-                            <point x="0.414938" y="0.465116" />
-                            <point x="0.497925" y="0.460465" />
-                            <point x="0.622407" y="0.423256" />
-                            <point x="0.6639" y="0.497674" />
-                            <point x="0.709544" y="0.674419" />
-                            <point x="0.497925" y="0.995349" />
-                            <point x="0.240664" y="0.730233" />
-                            <point x="0.348548" y="0.497674" />
-                        </collision-poly>
-                    </frame>
-                </animation>
                 <animation framecount="5" loop="1" name="running" pingpong="0" repeatcount="1" repeatto="0" sid="127223337242447" speed="5">
-                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_04.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.533835" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_04.png">
                         <collision-poly>
                             <point x="0.318966" y="0.165414" />
                             <point x="0.448276" y="0.135338" />
@@ -476,7 +364,7 @@
                             <point x="0.275862" y="0.180451" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.431034" hotspotY="0.18797" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_03.png">
+                    <frame duration="1" hotspotX="0.456897" hotspotY="0.488722" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_03.png">
                         <collision-poly>
                             <point x="0.301724" y="0.172932" />
                             <point x="0.422414" y="0.135338" />
@@ -488,7 +376,7 @@
                             <point x="0.267241" y="0.180451" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.47651" hotspotY="0.230216" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_05.png">
+                    <frame duration="1" hotspotX="0.483221" hotspotY="0.47482" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_05.png">
                         <collision-poly>
                             <point x="0.375839" y="0.215827" />
                             <point x="0.469799" y="0.158273" />
@@ -500,7 +388,7 @@
                             <point x="0.369128" y="0.223022" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.494898" hotspotY="0.234043" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_06.png">
+                    <frame duration="1" hotspotX="0.515306" hotspotY="0.531915" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_06.png">
                         <collision-poly>
                             <point x="0.362245" y="0.141844" />
                             <point x="0.489796" y="0.12766" />
@@ -512,7 +400,7 @@
                             <point x="0.234694" y="0.22695" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.506224" hotspotY="0.235714" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_07.png">
+                    <frame duration="1" hotspotX="0.510373" hotspotY="0.528571" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_07.png">
                         <collision-poly>
                             <point x="0.390042" y="0.128571" />
                             <point x="0.618257" y="0.128571" />
@@ -521,6 +409,92 @@
                             <point x="0.502075" y="0.992857" />
                             <point x="0.033195" y="0.95" />
                             <point x="0.224066" y="0.228571" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="5" loop="0" name="jumping" pingpong="0" repeatcount="1" repeatto="0" sid="983737185373462" speed="3">
+                    <frame duration="1" hotspotX="0.503356" hotspotY="0.5" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_08.png">
+                        <collision-poly>
+                            <point x="0.510067" y="0.144928" />
+                            <point x="0.691276" y="0.115942" />
+                            <point x="0.885905" y="0.210144" />
+                            <point x="0.979866" y="0.623189" />
+                            <point x="0.510067" y="0.985507" />
+                            <point x="0.255034" y="0.398551" />
+                            <point x="0.38255" y="0.210144" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503937" hotspotY="0.52349" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_09.png">
+                        <collision-poly>
+                            <point x="0.157481" y="0.161074" />
+                            <point x="0.543307" y="0.0335564" />
+                            <point x="0.952756" y="0.147651" />
+                            <point x="0.937007" y="0.402684" />
+                            <point x="0.881891" y="0.604026" />
+                            <point x="0.543307" y="0.791947" />
+                            <point x="0.015748" y="0.771812" />
+                            <point x="0.0393698" y="0.402684" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.546763" hotspotY="0.553957" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_10.png">
+                        <collision-poly>
+                            <point x="0.0503603" y="0.151078" />
+                            <point x="0.539568" y="0.13669" />
+                            <point x="0.877698" y="0.309352" />
+                            <point x="0.985612" y="0.546762" />
+                            <point x="0.913669" y="0.827338" />
+                            <point x="0.539568" y="0.985611" />
+                            <point x="0.215827" y="0.784173" />
+                            <point x="0.0935254" y="0.546762" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.565517" hotspotY="0.553957" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_11.png">
+                        <collision-poly>
+                            <point x="0.165518" y="0.230215" />
+                            <point x="0.55862" y="0.143884" />
+                            <point x="0.882758" y="0.309352" />
+                            <point x="0.986207" y="0.546762" />
+                            <point x="0.917242" y="0.827338" />
+                            <point x="0.55862" y="0.985611" />
+                            <point x="0.248275" y="0.784173" />
+                            <point x="0.117241" y="0.546762" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515625" hotspotY="0.541353" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_12.png">
+                        <collision-poly>
+                            <point x="0.429688" y="0.135338" />
+                            <point x="0.585937" y="0.127819" />
+                            <point x="0.820313" y="0.0676695" />
+                            <point x="0.898437" y="0.187969" />
+                            <point x="0.984376" y="0.473685" />
+                            <point x="0.585937" y="0.992481" />
+                            <point x="0.101563" y="0.56391" />
+                            <point x="0.304688" y="0.187969" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="149500476168648" speed="5">
+                    <frame duration="1" hotspotX="0.491667" hotspotY="0.5" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_14.png">
+                        <collision-poly>
+                            <point x="0.375" y="0.0163934" />
+                            <point x="0.625" y="0.204918" />
+                            <point x="0.65" y="0.245902" />
+                            <point x="0.341667" y="0.155738" />
+                            <point x="0.625" y="0.983607" />
+                            <point x="0.208333" y="0.467213" />
+                            <point x="0.308333" y="0.155738" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.525641" hotspotY="0.5" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_15.png">
+                        <collision-poly>
+                            <point x="0.717949" y="0.460938" />
+                            <point x="0.608974" y="0.46875" />
+                            <point x="0.75641" y="0.15625" />
+                            <point x="0.974359" y="0.226563" />
+                            <point x="0.961538" y="0.554688" />
+                            <point x="0.608974" y="0.578125" />
+                            <point x="0.0320513" y="0.835938" />
+                            <point x="0.416667" y="0.226563" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -542,7 +516,7 @@
             <animation-folder>
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318782813507386" speed="5">
                     <frame duration="1" hotspotX="0.504202" hotspotY="0.473684" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_03.png" />
-                    <frame duration="1" hotspotX="0.496933" hotspotY="0.506173" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_04.png">
+                    <frame duration="1" hotspotX="0.496933" hotspotY="0.839506" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_04.png">
                         <collision-poly>
                             <point x="0.91411" y="0.037037" />
                             <point x="0.693252" y="0.197531" />
@@ -550,7 +524,7 @@
                             <point x="0.0184049" y="0.876543" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.490566" hotspotY="0.502793" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_05.png">
+                    <frame duration="1" hotspotX="0.483019" hotspotY="0.854749" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_05.png">
                         <collision-poly>
                             <point x="0.456604" y="0.240223" />
                             <point x="0.584906" y="0.234637" />
@@ -562,7 +536,7 @@
                             <point x="0.426415" y="0.273743" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.480702" hotspotY="0.466981" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_06.png">
+                    <frame duration="1" hotspotX="0.505263" hotspotY="0.849057" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculos_06.png">
                         <collision-poly>
                             <point x="0.484211" y="0.429245" />
                             <point x="0.547368" y="0.146226" />
@@ -577,16 +551,16 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bgLevel1" sid="879193640066708">
+        <object-type name="bgLevel3" sid="879193640066708">
             <plugin id="TiledBg" />
             <behaviors>
                 <behavior-type name="Bullet" sid="617009760725032">
                     <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\irlan.gomes\Documents\fonte\uea\crossroads\source\Assets\fundo.png" />
+            <texture original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\level3 (2).png" />
         </object-type>
-        <object-type name="buracofase2" sid="370885917308559">
+        <object-type name="buracoLevel3" sid="370885917308559">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="493576232777762">
@@ -597,8 +571,55 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616629867676391" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616629867676391" speed="5">
+                    <frame duration="1" hotspotX="0.494231" hotspotY="0.446529" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\vortex\vortex_03.png">
+                        <collision-poly>
+                            <point x="0.198077" y="0.228893" />
+                            <point x="0.492308" y="0.110694" />
+                            <point x="0.771154" y="0.245779" />
+                            <point x="0.851923" y="0.444653" />
+                            <point x="0.805769" y="0.679174" />
+                            <point x="0.492308" y="0.898687" />
+                            <point x="0.188462" y="0.67167" />
+                            <point x="0.165385" y="0.444653" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.496957" hotspotY="0.451155" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\vortex\vortex_04.png">
+                        <collision-poly>
+                            <point x="0.204868" y="0.264654" />
+                            <point x="0.494929" y="0.154529" />
+                            <point x="0.801217" y="0.25222" />
+                            <point x="0.896552" y="0.449378" />
+                            <point x="0.851927" y="0.692718" />
+                            <point x="0.494929" y="0.866785" />
+                            <point x="0.174442" y="0.662522" />
+                            <point x="0.117647" y="0.449378" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.485605" hotspotY="0.449248" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\vortex\vortex_05.png">
+                        <collision-poly>
+                            <point x="0.228407" y="0.270677" />
+                            <point x="0.483685" y="0.103383" />
+                            <point x="0.804223" y="0.208647" />
+                            <point x="0.840691" y="0.447368" />
+                            <point x="0.825336" y="0.708647" />
+                            <point x="0.483685" y="0.890977" />
+                            <point x="0.178503" y="0.674812" />
+                            <point x="0.153551" y="0.447368" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.496945" hotspotY="0.451155" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\vortex\vortex_06.png">
+                        <collision-poly>
+                            <point x="0.142566" y="0.206039" />
+                            <point x="0.494908" y="0.143872" />
+                            <point x="0.784114" y="0.262877" />
+                            <point x="0.86558" y="0.449378" />
+                            <point x="0.875764" y="0.717584" />
+                            <point x="0.494908" y="0.845471" />
+                            <point x="0.154786" y="0.683837" />
+                            <point x="0.11609" y="0.449378" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -613,58 +634,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="783261352105426" speed="5">
-                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch2.png">
-                        <collision-poly>
-                            <point x="0.318966" y="0.165414" />
-                            <point x="0.448276" y="0.135338" />
-                            <point x="0.715517" y="0.0526316" />
-                            <point x="0.87069" y="0.180451" />
-                            <point x="0.991379" y="0.556391" />
-                            <point x="0.448276" y="0.984962" />
-                            <point x="0.0258621" y="0.458647" />
-                            <point x="0.275862" y="0.180451" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.431034" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch1.png">
-                        <collision-poly>
-                            <point x="0.301724" y="0.172932" />
-                            <point x="0.422414" y="0.135338" />
-                            <point x="0.637931" y="0.0977444" />
-                            <point x="0.862069" y="0.180451" />
-                            <point x="0.982759" y="0.571429" />
-                            <point x="0.422414" y="0.977444" />
-                            <point x="0.0344828" y="0.428571" />
-                            <point x="0.267241" y="0.180451" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="2" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="719455723486903" speed="5">
-                    <frame duration="1" hotspotX="0.633333" hotspotY="0.163934" original-source="C:\Users\AlunoPos\Desktop\litchDead1.png">
-                        <collision-poly>
-                            <point x="0.375" y="0.0163934" />
-                            <point x="0.625" y="0.204918" />
-                            <point x="0.65" y="0.245902" />
-                            <point x="0.341667" y="0.155738" />
-                            <point x="0.625" y="0.983607" />
-                            <point x="0.208333" y="0.467213" />
-                            <point x="0.308333" y="0.155738" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.608974" hotspotY="0.234375" original-source="C:\Users\AlunoPos\Desktop\litchDead2.png">
-                        <collision-poly>
-                            <point x="0.717949" y="0.460938" />
-                            <point x="0.608974" y="0.46875" />
-                            <point x="0.75641" y="0.15625" />
-                            <point x="0.974359" y="0.226563" />
-                            <point x="0.961538" y="0.554688" />
-                            <point x="0.608974" y="0.578125" />
-                            <point x="0.0320513" y="0.835938" />
-                            <point x="0.416667" y="0.226563" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="5" loop="0" name="jumping" pingpong="0" repeatcount="1" repeatto="0" sid="696741090855043" speed="5">
+                <animation framecount="5" loop="0" name="jumping" pingpong="0" repeatcount="1" repeatto="0" sid="696741090855043" speed="7">
                     <frame duration="1" hotspotX="0.516779" hotspotY="0.217391" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_08.png">
                         <collision-poly>
                             <point x="0.510067" y="0.144928" />
@@ -722,6 +692,57 @@
                             <point x="0.585938" y="0.992481" />
                             <point x="0.101563" y="0.56391" />
                             <point x="0.304688" y="0.18797" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="idle" pingpong="0" repeatcount="1" repeatto="0" sid="783261352105426" speed="5">
+                    <frame duration="1" hotspotX="0.456897" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch2.png">
+                        <collision-poly>
+                            <point x="0.318966" y="0.165414" />
+                            <point x="0.448276" y="0.135338" />
+                            <point x="0.715517" y="0.0526316" />
+                            <point x="0.87069" y="0.180451" />
+                            <point x="0.991379" y="0.556391" />
+                            <point x="0.448276" y="0.984962" />
+                            <point x="0.0258621" y="0.458647" />
+                            <point x="0.275862" y="0.180451" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.431034" hotspotY="0.18797" original-source="C:\Users\AlunoPos\Desktop\litch1.png">
+                        <collision-poly>
+                            <point x="0.301724" y="0.172932" />
+                            <point x="0.422414" y="0.135338" />
+                            <point x="0.637931" y="0.0977444" />
+                            <point x="0.862069" y="0.180451" />
+                            <point x="0.982759" y="0.571429" />
+                            <point x="0.422414" y="0.977444" />
+                            <point x="0.0344828" y="0.428571" />
+                            <point x="0.267241" y="0.180451" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="0" name="dead" pingpong="0" repeatcount="1" repeatto="0" sid="719455723486903" speed="5">
+                    <frame duration="1" hotspotX="0.633333" hotspotY="0.163934" original-source="C:\Users\AlunoPos\Desktop\litchDead1.png">
+                        <collision-poly>
+                            <point x="0.375" y="0.0163934" />
+                            <point x="0.625" y="0.204918" />
+                            <point x="0.65" y="0.245902" />
+                            <point x="0.341667" y="0.155738" />
+                            <point x="0.625" y="0.983607" />
+                            <point x="0.208333" y="0.467213" />
+                            <point x="0.308333" y="0.155738" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.608974" hotspotY="0.234375" original-source="C:\Users\AlunoPos\Desktop\litchDead2.png">
+                        <collision-poly>
+                            <point x="0.717949" y="0.460938" />
+                            <point x="0.608974" y="0.46875" />
+                            <point x="0.75641" y="0.15625" />
+                            <point x="0.974359" y="0.226563" />
+                            <point x="0.961538" y="0.554688" />
+                            <point x="0.608974" y="0.578125" />
+                            <point x="0.0320513" y="0.835938" />
+                            <point x="0.416667" y="0.226563" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -997,7 +1018,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888620022678951" speed="5">
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888620022678951" speed="5">
                     <frame duration="1" hotspotX="0.494231" hotspotY="0.446529" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\vortex\vortex_03.png">
                         <collision-poly>
                             <point x="0.198077" y="0.228893" />
@@ -1434,6 +1455,24 @@
         </object-type>
         <object-type name="gameOver" sid="110658478914821">
             <plugin id="Function" />
+        </object-type>
+        <object-type name="bgLevel1" sid="169349009982999">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="501068255180212">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\level1 (2).png" />
+        </object-type>
+        <object-type name="bgLevel1Street" sid="862773936067033">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="742821531301847">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\level1barra.png" />
         </object-type>
     </object-folder>
     <families />
