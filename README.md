@@ -35,5 +35,5 @@ Soun effects ramdomly created by the game.
 
 ## Play
 
-[PLAY Route 666](route666/)
+[PLAY Route 666](source/)
 
