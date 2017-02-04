@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="bgLevel13" uid="54">
+                <instance type="bgLevel1" uid="54">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -61,14 +61,19 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="grama" uid="55">
+                <instance type="Street" uid="55">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
+                        <behavior-instance type="Bullet">
                             <properties>
+                                <speed>400</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -150,50 +155,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="canocima" uid="57">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <passou>0</passou>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Bullet">
-                            <properties>
-                                <speed>-200</speed>
-                                <acceleration>0</acceleration>
-                                <gravity>0</gravity>
-                                <bounce-off-solids>No</bounce-off-solids>
-                                <set-angle>No</set-angle>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="DestroyOutsideLayout" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-306</x>
-                        <y>514</y>
-                        <z>0</z>
-                        <width>54</width>
-                        <height>556</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>1.012589931</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="canobaixo" uid="58">
+                <instance type="CruzLevel1" uid="58">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -224,11 +186,11 @@
                         <x>-461</x>
                         <y>-57.132759094</y>
                         <z>0</z>
-                        <width>55</width>
-                        <height>814</height>
+                        <width>119</width>
+                        <height>64.17427063</height>
                         <depth>0</depth>
-                        <hotspotX>0.472727269</hotspotX>
-                        <hotspotY>-0.012448133</hotspotY>
+                        <hotspotX>0.50420171</hotspotX>
+                        <hotspotY>0.473684222</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -287,7 +249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoPentagrama" uid="52">
+                <instance type="Pentagrama" uid="52">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -317,16 +279,16 @@
                         <x>835</x>
                         <y>538</y>
                         <z>0</z>
-                        <width>27</width>
-                        <height>29</height>
+                        <width>19.871999741</width>
+                        <height>31.087999344</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.505434811</hotspotX>
+                        <hotspotY>0.49253732</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoBode" uid="65">
+                <instance type="Bode" uid="65">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -356,16 +318,16 @@
                         <x>1038</x>
                         <y>547</y>
                         <z>0</z>
-                        <width>29</width>
-                        <height>29</height>
+                        <width>22.968000412</width>
+                        <height>30.972000122</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.48989898</hotspotX>
+                        <hotspotY>0.494382024</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pontoPorcao" uid="66">
+                <instance type="Pocao" uid="66">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -395,11 +357,11 @@
                         <x>1217</x>
                         <y>521</y>
                         <z>0</z>
-                        <width>31</width>
-                        <height>29</height>
+                        <width>22.815999985</width>
+                        <height>31.087999344</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.532608688</hotspotX>
+                        <hotspotY>0.49253732</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

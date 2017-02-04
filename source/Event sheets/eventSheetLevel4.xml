@@ -3,71 +3,70 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>eventSheetLevel4</name>
     <events>
-        <event-group description="" sid="361044834340256" title="project">
-            <sub-events>
-                <event-block sid="877285589678353">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="119822005093272" type="playerLevel4">
-                            <param id="0" name="Object">buracoLevel4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="155963400519142" type="System">
-                            <param id="0" name="Layout">Level-1</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="932710804388432" type="System">
-                            <param id="0" name="Seconds">1.0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="954031657686966">
-                    <conditions>
-                        <condition behavior="Platform" id="2" name="Is on floor" sid="172687340764263" type="playerLevel4" />
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="472409154312556" type="playerLevel4">
-                            <param id="0" name="Control">2</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="510830065570322">
-                    <conditions>
-                        <condition id="4" name="Is touching object" sid="108514240579310" type="Touch">
-                            <param id="0" name="Object">ButtonLeftLevel4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="311906123108562" type="playerLevel4">
-                            <param id="0" name="Control">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="530823152155988">
-                    <conditions>
-                        <condition id="4" name="Is touching object" sid="642361334982378" type="Touch">
-                            <param id="0" name="Object">bottoRightLevel4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Platform" id="7" name="Simulate control" sid="243540681533428" type="playerLevel4">
-                            <param id="0" name="Control">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
+        <event-block sid="877285589678353">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="119822005093272" type="playerLevel4">
+                    <param id="0" name="Object">buracoLevel4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="231950139755347" type="buracoLevel4" />
+                <action id="-9" name="Destroy" sid="348247738178041" type="playerLevel4" />
+                <action id="-16" name="Wait" sid="932710804388432" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="155963400519142" type="System">
+                    <param id="0" name="Layout">Level-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="954031657686966">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="172687340764263" type="playerLevel4" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="472409154312556" type="playerLevel4">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>rotacionar personagem conforme movimento left ou right e Setar animação de Jump</comment>
+        <event-block sid="510830065570322">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="108514240579310" type="Touch">
+                    <param id="0" name="Object">ButtonLeftLevel4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="311906123108562" type="playerLevel4">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530823152155988">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="642361334982378" type="Touch">
+                    <param id="0" name="Object">bottonRightLevel4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="243540681533428" type="playerLevel4">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="468281692010497">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="301727228300003" type="System" />
             </conditions>
             <actions>
-                <action behavior="Bullet" id="0" name="Set speed" sid="710679024192048" type="pontoBode">
+                <action behavior="Bullet" id="0" name="Set speed" sid="710679024192048" type="Bode">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="224307476065621" type="pontoPentagrama">
+                <action behavior="Bullet" id="0" name="Set speed" sid="224307476065621" type="Pentagrama">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="763218787952903" type="pontoPorcao">
+                <action behavior="Bullet" id="0" name="Set speed" sid="763218787952903" type="Pocao">
                     <param id="0" name="Speed">0</param>
                 </action>
             </actions>
@@ -75,11 +74,11 @@
         <event-block sid="625654374117520">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="598319887691098" type="playerLevel4">
-                    <param id="0" name="Object">pontoBode</param>
+                    <param id="0" name="Object">Bode</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="261955134725563" type="pontoBode" />
+                <action id="-9" name="Destroy" sid="261955134725563" type="Bode" />
                 <action id="-10" name="Add to" sid="618605755031830" type="System">
                     <param id="0" name="Variable">scoreBode</param>
                     <param id="1" name="Value">1</param>
@@ -89,11 +88,11 @@
         <event-block sid="911583623468447">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="124917197377783" type="playerLevel4">
-                    <param id="0" name="Object">pontoPentagrama</param>
+                    <param id="0" name="Object">Pentagrama</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="860061715217669" type="pontoPentagrama" />
+                <action id="-9" name="Destroy" sid="860061715217669" type="Pentagrama" />
                 <action id="-10" name="Add to" sid="172382741346304" type="System">
                     <param id="0" name="Variable">scorePentagrama</param>
                     <param id="1" name="Value">1</param>
@@ -103,11 +102,11 @@
         <event-block sid="981737551087166">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="372450122807954" type="playerLevel4">
-                    <param id="0" name="Object">pontoPorcao</param>
+                    <param id="0" name="Object">Pocao</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="174338345657202" type="pontoPorcao" />
+                <action id="-9" name="Destroy" sid="174338345657202" type="Pocao" />
                 <action id="-10" name="Add to" sid="205525410874305" type="System">
                     <param id="0" name="Variable">scorePoção</param>
                     <param id="1" name="Value">1</param>
@@ -127,6 +126,30 @@
                 </action>
                 <action id="0" name="Set text" sid="669205220371577" type="scorePoção">
                     <param id="0" name="Text">scorePoção</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Parar Animação e Jump Automático do Personagem</comment>
+        <event-block sid="230636619317603">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="649211701578447" type="playerLevel4">
+                    <param id="0" name="Object">wallBottomLevel4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="683261270463512" type="playerLevel4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="313261494124799" type="playerLevel4">
+                    <param id="0" name="Animation">&quot;dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="143407616676376" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="891481231446956" type="playerLevel4" />
+                <action id="-2" name="Go to layout" sid="882115165446030" type="System">
+                    <param id="0" name="Layout">layoutGameOverV</param>
                 </action>
             </actions>
         </event-block>

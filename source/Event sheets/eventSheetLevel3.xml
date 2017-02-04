@@ -5,26 +5,26 @@
     <events>
         <event-block sid="482735975184735">
             <conditions>
-                <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel13">
+                <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel1">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">bgLevel13.Width/-2</param>
+                    <param id="1" name="X co-ordinate">bgLevel1.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="760573729877550" type="bgLevel13">
+                <action id="-1" name="Set X" sid="760573729877550" type="bgLevel1">
                     <param id="0" name="X">0</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="524726682766297">
             <conditions>
-                <condition id="-1" name="Compare X" sid="862847409916424" type="grama">
+                <condition id="-1" name="Compare X" sid="862847409916424" type="Street">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(grama.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">-1*(Street.Width-WindowWidth)</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-1" name="Set X" sid="944304867810653" type="grama">
+                <action id="-1" name="Set X" sid="944304867810653" type="Street">
                     <param id="0" name="X">0</param>
                 </action>
             </actions>
@@ -68,13 +68,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="706149782989274" type="bgLevel13">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="706149782989274" type="bgLevel1">
                     <param id="0" name="State">0</param>
                 </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="691244765866646" type="canobaixo">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="295289490923267" type="canocima">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="691244765866646" type="CruzLevel1">
                     <param id="0" name="State">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="382327607892642" type="System">
@@ -92,7 +89,7 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="538850971858021" type="System">
-                    <param id="0" name="Object to create">canobaixo</param>
+                    <param id="0" name="Object to create">CruzLevel1</param>
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="X">1510</param>
                     <param id="3" name="Y">random(600, 900)</param>
@@ -132,11 +129,11 @@
         <event-block sid="556915856061078">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="768028985635611" type="playerLevel1and3">
-                    <param id="0" name="Object">pontoBode</param>
+                    <param id="0" name="Object">Bode</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="827656420699672" type="pontoBode" />
+                <action id="-9" name="Destroy" sid="827656420699672" type="Bode" />
                 <action id="-10" name="Add to" sid="416736608230739" type="System">
                     <param id="0" name="Variable">scoreBode</param>
                     <param id="1" name="Value">1</param>
@@ -146,11 +143,11 @@
         <event-block sid="220918185457147">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="177639383811756" type="playerLevel1and3">
-                    <param id="0" name="Object">pontoPentagrama</param>
+                    <param id="0" name="Object">Pentagrama</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="631321521816024" type="pontoPentagrama" />
+                <action id="-9" name="Destroy" sid="631321521816024" type="Pentagrama" />
                 <action id="-10" name="Add to" sid="924216680514822" type="System">
                     <param id="0" name="Variable">scorePentagrama</param>
                     <param id="1" name="Value">1</param>
@@ -160,11 +157,11 @@
         <event-block sid="646019710225406">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="998385255559086" type="playerLevel1and3">
-                    <param id="0" name="Object">pontoPorcao</param>
+                    <param id="0" name="Object">Pocao</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="874535006377122" type="pontoPorcao" />
+                <action id="-9" name="Destroy" sid="874535006377122" type="Pocao" />
                 <action id="-10" name="Add to" sid="738163065991409" type="System">
                     <param id="0" name="Variable">scorePoção</param>
                     <param id="1" name="Value">1</param>
@@ -195,7 +192,7 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="267216144010612" type="System">
-                    <param id="0" name="Object to create">pontoBode</param>
+                    <param id="0" name="Object to create">Bode</param>
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="X">1500</param>
                     <param id="3" name="Y">random(200, 900)</param>
@@ -210,7 +207,7 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="730790923562515" type="System">
-                    <param id="0" name="Object to create">pontoPentagrama</param>
+                    <param id="0" name="Object to create">Pentagrama</param>
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="X">1500</param>
                     <param id="3" name="Y">random(200, 900)</param>
@@ -225,7 +222,7 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="120110194428988" type="System">
-                    <param id="0" name="Object to create">pontoPorcao</param>
+                    <param id="0" name="Object to create">Pocao</param>
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="X">1500</param>
                     <param id="3" name="Y">random(200, 900)</param>
@@ -237,13 +234,13 @@
                 <condition id="-2" name="On start of layout" sid="234811713933824" type="System" />
             </conditions>
             <actions>
-                <action behavior="Bullet" id="0" name="Set speed" sid="101248232652338" type="pontoBode">
+                <action behavior="Bullet" id="0" name="Set speed" sid="101248232652338" type="Bode">
                     <param id="0" name="Speed">-200</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="416154060781400" type="pontoPentagrama">
+                <action behavior="Bullet" id="0" name="Set speed" sid="416154060781400" type="Pentagrama">
                     <param id="0" name="Speed">-200</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="475544972561020" type="pontoPorcao">
+                <action behavior="Bullet" id="0" name="Set speed" sid="475544972561020" type="Pocao">
                     <param id="0" name="Speed">-200</param>
                 </action>
             </actions>
