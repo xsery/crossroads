@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventSheetLevel2</name>
+    <events>
+        <comment>Inserir Animação quando o personagem vai pro Left ou Right</comment>
+        <event-block sid="377526171377769">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="335570763966243" type="Touch">
+                    <param id="0" name="Object">bottonLeftLevel2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="390951684020168" type="playerLevel2">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="226354456230647">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="565247206464667" type="Touch">
+                    <param id="0" name="Object">buttonRightLevel2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="360614069774385" type="playerLevel2">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="988828512823447">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="135364828418760" type="playerLevel2" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="737516214640719" type="playerLevel2">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action id="4" name="Set animation" sid="195401004809362" type="playerLevel2">
+                    <param id="0" name="Animation">&quot;jumping&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="330926590995423">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="708444654693499" type="playerLevel2">
+                    <param id="0" name="Object">Bode</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="386099795840472" type="Bode" />
+                <action id="-10" name="Add to" sid="229018195825230" type="System">
+                    <param id="0" name="Variable">scoreBode</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="778862792281068">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="947662554984041" type="playerLevel2">
+                    <param id="0" name="Object">Pentagrama</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="455111958277414" type="Pentagrama" />
+                <action id="-10" name="Add to" sid="237161743631768" type="System">
+                    <param id="0" name="Variable">scorePentagrama</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="676844637745849">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="996716950739075" type="playerLevel2">
+                    <param id="0" name="Object">Pocao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="876307911509614" type="Pocao" />
+                <action id="-10" name="Add to" sid="259076741659400" type="System">
+                    <param id="0" name="Variable">scorePoção</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="893448960527540">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="115759976096274" type="playerLevel2">
+                    <param id="0" name="Object">buracoLevel2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="253901684448364" type="System">
+                    <param id="0" name="Layout">Level-3</param>
+                </action>
+                <action id="-16" name="Wait" sid="611768482318999" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="192840550562635">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="618388972742842" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="597587322161161" type="System">
+                    <param id="0" name="Seconds">0.7</param>
+                </action>
+                <action id="-3" name="Create object" sid="151898475386106" type="System">
+                    <param id="0" name="Object to create">wallTop</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">748</param>
+                    <param id="3" name="Y">-66</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="340569515904841">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="701220985900411" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="690736094535934" type="scoreBode">
+                    <param id="0" name="Text">scoreBode</param>
+                </action>
+                <action id="0" name="Set text" sid="787974779557331" type="scorePentagrama">
+                    <param id="0" name="Text">scorePentagrama</param>
+                </action>
+                <action id="0" name="Set text" sid="302529787992059" type="scorePoção">
+                    <param id="0" name="Text">scorePoção</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="565678252182165">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="857899441498142" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="648922827651035" type="Bode">
+                    <param id="0" name="Speed">0</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="780710725437255" type="Pentagrama">
+                    <param id="0" name="Speed">0</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="916851187940460" type="Pocao">
+                    <param id="0" name="Speed">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="819158159750435">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="214267217102798" type="playerLevel2">
+                    <param id="0" name="Object">wallLevel2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="11" name="Set enabled" sid="230837961477924" type="playerLevel2">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="605082895624937" type="playerLevel2">
+                    <param id="0" name="Animation">&quot;dead&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="892821955387676" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="433649411951462" type="playerLevel2" />
+                <action id="-2" name="Go to layout" sid="420515072738992" type="System">
+                    <param id="0" name="Layout">layoutGameOverV</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

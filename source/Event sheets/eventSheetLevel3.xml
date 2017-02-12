@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventSheetLevel3</name>
+    <events>
+        <event-block sid="482735975184735">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel3">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-1*(bgLevel3.Width-WindowWidth)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="760573729877550" type="bgLevel3">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="524726682766297">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="862847409916424" type="StreetLevel3">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">-1*(StreetLevel3.Width-WindowWidth)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="944304867810653" type="StreetLevel3">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="182424028979678">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="228299929126059" type="System">
+                    <param id="0" name="Variable">morreu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="706149782989274" type="bgLevel3">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="691244765866646" type="StreetLevel3">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="382327607892642" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="827995993163207" type="System" />
+                <action id="-26" name="Restart layout" sid="783668411013849" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="151512803645610">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="658454504708064" type="System">
+                    <param id="0" name="Interval (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="451279697173720" type="System">
+                    <param id="0" name="Object to create">buracoLevel3</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1634</param>
+                    <param id="3" name="Y">600</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="261193405338494">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="122434846606405" type="playerLevel1and3">
+                    <param id="0" name="Object">buracoLevel3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="415909160574087" type="playerLevel1and3" />
+                <action id="-9" name="Destroy" sid="413254686091770" type="buracoLevel3" />
+                <action id="-2" name="Go to layout" sid="681798848815173" type="System">
+                    <param id="0" name="Layout">Level-4</param>
+                </action>
+                <action id="-16" name="Wait" sid="371813065944028" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="456049664355044">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="570693654325311" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="565225376719443" type="scoreBode">
+                    <param id="0" name="Text">scoreBode</param>
+                </action>
+                <action id="0" name="Set text" sid="501559084285045" type="scorePentagrama">
+                    <param id="0" name="Text">scorePentagrama</param>
+                </action>
+                <action id="0" name="Set text" sid="714757571963130" type="scorePoção">
+                    <param id="0" name="Text">scorePoção</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="556915856061078">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="768028985635611" type="playerLevel1and3">
+                    <param id="0" name="Object">Bode</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="827656420699672" type="Bode" />
+                <action id="-10" name="Add to" sid="416736608230739" type="System">
+                    <param id="0" name="Variable">scoreBode</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="220918185457147">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="177639383811756" type="playerLevel1and3">
+                    <param id="0" name="Object">Pentagrama</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="631321521816024" type="Pentagrama" />
+                <action id="-10" name="Add to" sid="924216680514822" type="System">
+                    <param id="0" name="Variable">scorePentagrama</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="646019710225406">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="998385255559086" type="playerLevel1and3">
+                    <param id="0" name="Object">Pocao</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="874535006377122" type="Pocao" />
+                <action id="-10" name="Add to" sid="738163065991409" type="System">
+                    <param id="0" name="Variable">scorePoção</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="692983144554741">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="411393162253583" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="267216144010612" type="System">
+                    <param id="0" name="Object to create">Bode</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1510</param>
+                    <param id="3" name="Y">random(200, 900)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="410409391877997">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="469949926912182" type="System">
+                    <param id="0" name="Interval (seconds)">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="730790923562515" type="System">
+                    <param id="0" name="Object to create">Pentagrama</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1510</param>
+                    <param id="3" name="Y">random(200, 900)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="259075390588164">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="377472242970360" type="System">
+                    <param id="0" name="Interval (seconds)">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="120110194428988" type="System">
+                    <param id="0" name="Object to create">Pocao</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1510</param>
+                    <param id="3" name="Y">random(200, 900)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="526219343026889">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="234811713933824" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="101248232652338" type="Bode">
+                    <param id="0" name="Speed">-200</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="416154060781400" type="Pentagrama">
+                    <param id="0" name="Speed">-200</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="475544972561020" type="Pocao">
+                    <param id="0" name="Speed">-200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="651967116885304">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="236526211169793" type="System">
+                    <param id="0" name="Interval (seconds)">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="538850971858021" type="System">
+                    <param id="0" name="Object to create">CruzLevel1</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1510</param>
+                    <param id="3" name="Y">1050</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="373530109018669">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="442127307671805" type="System">
+                    <param id="0" name="Interval (seconds)">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="874009975586067" type="System">
+                    <param id="0" name="Object to create">vinhoLevel3</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1510</param>
+                    <param id="3" name="Y">1050</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="516698491203124">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="228416924742914" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="882021915495469" type="System">
+                    <param id="0" name="Object to create">incensoLevel3</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">1510</param>
+                    <param id="3" name="Y">1050</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="314213025402728">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="994494702436188" type="Touch" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="906074031285409" type="playerLevel1and3">
+                    <param id="0" name="Control">2</param>
+                </action>
+                <action id="4" name="Set animation" sid="628334882143464" type="playerLevel1and3">
+                    <param id="0" name="Animation">&quot;jumping&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="832486822592560">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="921761455433084" type="playerLevel1and3" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="870191770409066" type="playerLevel1and3">
+                    <param id="0" name="Animation">&quot;running&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

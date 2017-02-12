@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eventSheetLayoutGameOverV</name>
+    <events>
+        <comment>Inserir Áudio do Click</comment>
+        <event-block sid="470320297723762">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="693756164257858" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">RestartGameOverHori</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="137137090868975" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="134507942938245" type="System">
+                    <param id="0" name="Layout">Level-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Inserir Áudio</comment>
+        <event-block sid="756261764902037">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="181075467746748" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
