@@ -66,7 +66,7 @@
                 <action behavior="Bullet" id="0" name="Set speed" sid="224307476065621" type="Pentagrama">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="763218787952903" type="Pocao">
+                <action behavior="Bullet" id="0" name="Set speed" sid="763218787952903" type="Poção">
                     <param id="0" name="Speed">0</param>
                 </action>
             </actions>
@@ -102,11 +102,11 @@
         <event-block sid="981737551087166">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="372450122807954" type="playerLevel4">
-                    <param id="0" name="Object">Pocao</param>
+                    <param id="0" name="Object">Poção</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="174338345657202" type="Pocao" />
+                <action id="-9" name="Destroy" sid="174338345657202" type="Poção" />
                 <action id="-10" name="Add to" sid="205525410874305" type="System">
                     <param id="0" name="Variable">scorePoção</param>
                     <param id="1" name="Value">1</param>

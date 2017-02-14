@@ -862,7 +862,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Pocao" sid="968306778864652">
+        <object-type name="Poção" sid="968306778864652">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="682661737610219">
@@ -1434,8 +1434,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646654820772989" speed="5">
-                    <frame duration="1" hotspotX="0.522523" hotspotY="0.508475" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_03.png">
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646654820772989" speed="5">
+                    <frame duration="1" hotspotX="0.513514" hotspotY="0.491525" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_03.png">
                         <collision-poly>
                             <point x="0.738739" y="0.313559" />
                             <point x="0.504505" y="0.254237" />
@@ -1445,7 +1445,7 @@
                             <point x="0.288288" y="0.491525" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.47651" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_04.png">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.597315" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_04.png">
                         <collision-poly>
                             <point x="0.736364" y="0.449664" />
                             <point x="0.509091" y="0.409396" />
@@ -1455,7 +1455,7 @@
                             <point x="0.281818" y="0.610738" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.509091" hotspotY="0.483516" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_05.png">
+                    <frame duration="1" hotspotX="0.518182" hotspotY="0.681319" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\obstaculos\obstaculo-3_05.png">
                         <collision-poly>
                             <point x="0.745455" y="0.549451" />
                             <point x="0.518182" y="0.516484" />
@@ -1569,6 +1569,858 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ScoreLevel1" sid="482598922899259">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991375811430109" speed="5">
+                    <frame duration="1" hotspotX="0.481625" hotspotY="0.501961" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\score.png">
+                        <collision-poly>
+                            <point x="0.139265" y="0.219608" />
+                            <point x="0.481625" y="0.168627" />
+                            <point x="0.84913" y="0.168627" />
+                            <point x="0.955513" y="0.501961" />
+                            <point x="0.847195" y="0.831373" />
+                            <point x="0.481625" y="0.831373" />
+                            <point x="0.141199" y="0.780392" />
+                            <point x="0.00386847" y="0.501961" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="poçãoScore" sid="845519985999048">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460181065439467" speed="5">
+                    <frame duration="1" hotspotX="0.527174" hotspotY="0.496269" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_03.png">
+                        <collision-poly>
+                            <point x="0.576087" y="0.264925" />
+                            <point x="0.684783" y="0.339552" />
+                            <point x="0.847826" y="0.522388" />
+                            <point x="0.793478" y="0.779851" />
+                            <point x="0.576087" y="0.895522" />
+                            <point x="0.293478" y="0.824627" />
+                            <point x="0.228261" y="0.522388" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.520202" hotspotY="0.490637" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_04.png">
+                        <collision-poly>
+                            <point x="0.429293" y="0.303371" />
+                            <point x="0.540404" y="0.183521" />
+                            <point x="0.611111" y="0.333333" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.742424" y="0.752809" />
+                            <point x="0.540404" y="0.898876" />
+                            <point x="0.227273" y="0.835206" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.531707" hotspotY="0.496063" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_06.png">
+                        <collision-poly>
+                            <point x="0.365854" y="0.244094" />
+                            <point x="0.531707" y="0.15748" />
+                            <point x="0.595122" y="0.326772" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.75122" y="0.783465" />
+                            <point x="0.531707" y="0.889764" />
+                            <point x="0.287805" y="0.80315" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pentagramaScore" sid="954035576564076">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="350648989168329" speed="5">
+                    <frame duration="1" hotspotX="0.51087" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_10.png">
+                        <collision-poly>
+                            <point x="0.505435" y="0.309702" />
+                            <point x="0.630435" y="0.298507" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.788044" y="0.794776" />
+                            <point x="0.505435" y="0.895522" />
+                            <point x="0.255435" y="0.772388" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.520202" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_09.png">
+                        <collision-poly>
+                            <point x="0.515152" y="0.2397" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.737374" y="0.76779" />
+                            <point x="0.515152" y="0.895131" />
+                            <point x="0.212121" y="0.827715" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.512195" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_11.png">
+                        <collision-poly>
+                            <point x="0.356098" y="0.255906" />
+                            <point x="0.507317" y="0.165354" />
+                            <point x="0.580488" y="0.318898" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.736585" y="0.791339" />
+                            <point x="0.507317" y="0.889764" />
+                            <point x="0.273171" y="0.795276" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_08.png">
+                        <collision-poly>
+                            <point x="0.358974" y="0.259843" />
+                            <point x="0.512821" y="0.165354" />
+                            <point x="0.584615" y="0.322835" />
+                            <point x="0.764103" y="0.492126" />
+                            <point x="0.74359" y="0.783465" />
+                            <point x="0.512821" y="0.889764" />
+                            <point x="0.271795" y="0.791339" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bodeScore" sid="625918889663772">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="306195055176532" speed="5">
+                    <frame duration="1" hotspotX="0.492308" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_13.png">
+                        <collision-poly>
+                            <point x="0.353846" y="0.271654" />
+                            <point x="0.492308" y="0.181102" />
+                            <point x="0.574359" y="0.314961" />
+                            <point x="0.779487" y="0.492126" />
+                            <point x="0.738462" y="0.795276" />
+                            <point x="0.492308" y="0.893701" />
+                            <point x="0.261538" y="0.783465" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.494949" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_14.png">
+                        <collision-poly>
+                            <point x="0.39899" y="0.318352" />
+                            <point x="0.489899" y="0.265918" />
+                            <point x="0.590909" y="0.310861" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.727273" y="0.779026" />
+                            <point x="0.489899" y="0.895131" />
+                            <point x="0.19697" y="0.820225" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483696" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_15.png">
+                        <collision-poly>
+                            <point x="0.429348" y="0.350746" />
+                            <point x="0.478261" y="0.339552" />
+                            <point x="0.619565" y="0.287313" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.782609" y="0.809702" />
+                            <point x="0.478261" y="0.899254" />
+                            <point x="0.23913" y="0.764925" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.487805" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_16.png">
+                        <collision-poly>
+                            <point x="0.35122" y="0.271654" />
+                            <point x="0.482927" y="0.185039" />
+                            <point x="0.570732" y="0.307087" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.726829" y="0.80315" />
+                            <point x="0.482927" y="0.893701" />
+                            <point x="0.263415" y="0.783465" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="scoreLevel3" sid="459431030670182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316837289663535" speed="5">
+                    <frame duration="1" hotspotX="0.481625" hotspotY="0.501961" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\score.png">
+                        <collision-poly>
+                            <point x="0.139265" y="0.219608" />
+                            <point x="0.481625" y="0.168627" />
+                            <point x="0.84913" y="0.168627" />
+                            <point x="0.955513" y="0.501961" />
+                            <point x="0.847195" y="0.831373" />
+                            <point x="0.481625" y="0.831373" />
+                            <point x="0.141199" y="0.780392" />
+                            <point x="0.00386847" y="0.501961" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="poçãoScoreLevel3" sid="365171082102784">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273025561342904" speed="5">
+                    <frame duration="1" hotspotX="0.532609" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_05.png">
+                        <collision-poly>
+                            <point x="0.472826" y="0.343284" />
+                            <point x="0.532609" y="0.246269" />
+                            <point x="0.641304" y="0.309702" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.793478" y="0.779851" />
+                            <point x="0.532609" y="0.895522" />
+                            <point x="0.266304" y="0.783582" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.520202" hotspotY="0.490637" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_04.png">
+                        <collision-poly>
+                            <point x="0.429293" y="0.303371" />
+                            <point x="0.540404" y="0.183521" />
+                            <point x="0.611111" y="0.333333" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.742424" y="0.752809" />
+                            <point x="0.540404" y="0.898876" />
+                            <point x="0.227273" y="0.835206" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.531707" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_06.png">
+                        <collision-poly>
+                            <point x="0.365854" y="0.244094" />
+                            <point x="0.531707" y="0.15748" />
+                            <point x="0.595122" y="0.326772" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.75122" y="0.783465" />
+                            <point x="0.531707" y="0.889764" />
+                            <point x="0.287805" y="0.80315" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bodeScoreLevel3" sid="169073852222759">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301443537933359" speed="5">
+                    <frame duration="1" hotspotX="0.489899" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_14.png">
+                        <collision-poly>
+                            <point x="0.39899" y="0.318352" />
+                            <point x="0.489899" y="0.265918" />
+                            <point x="0.590909" y="0.310861" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.727273" y="0.779026" />
+                            <point x="0.489899" y="0.895131" />
+                            <point x="0.19697" y="0.820225" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.492308" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_13.png">
+                        <collision-poly>
+                            <point x="0.353846" y="0.271654" />
+                            <point x="0.492308" y="0.181102" />
+                            <point x="0.574359" y="0.314961" />
+                            <point x="0.779487" y="0.492126" />
+                            <point x="0.738462" y="0.795276" />
+                            <point x="0.492308" y="0.893701" />
+                            <point x="0.261538" y="0.783465" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_15.png">
+                        <collision-poly>
+                            <point x="0.429348" y="0.350746" />
+                            <point x="0.478261" y="0.339552" />
+                            <point x="0.619565" y="0.287313" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.782609" y="0.809702" />
+                            <point x="0.478261" y="0.899254" />
+                            <point x="0.23913" y="0.764925" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.482927" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_16.png">
+                        <collision-poly>
+                            <point x="0.35122" y="0.271654" />
+                            <point x="0.482927" y="0.185039" />
+                            <point x="0.570732" y="0.307087" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.726829" y="0.80315" />
+                            <point x="0.482927" y="0.893701" />
+                            <point x="0.263415" y="0.783465" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pentagramaScoreLevel3" sid="527526731193488">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332919114721798" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_08.png">
+                        <collision-poly>
+                            <point x="0.358974" y="0.259843" />
+                            <point x="0.512821" y="0.165354" />
+                            <point x="0.584615" y="0.322835" />
+                            <point x="0.764103" y="0.492126" />
+                            <point x="0.74359" y="0.783465" />
+                            <point x="0.512821" y="0.889764" />
+                            <point x="0.271795" y="0.791339" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505435" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_10.png">
+                        <collision-poly>
+                            <point x="0.342391" y="0.272388" />
+                            <point x="0.505435" y="0.182836" />
+                            <point x="0.581522" y="0.33209" />
+                            <point x="0.771739" y="0.492537" />
+                            <point x="0.75" y="0.768657" />
+                            <point x="0.505435" y="0.869403" />
+                            <point x="0.25" y="0.776119" />
+                            <point x="0.201087" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_09.png">
+                        <collision-poly>
+                            <point x="0.515152" y="0.2397" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.737374" y="0.76779" />
+                            <point x="0.515152" y="0.895131" />
+                            <point x="0.212121" y="0.827715" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507317" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_11.png">
+                        <collision-poly>
+                            <point x="0.356098" y="0.255906" />
+                            <point x="0.507317" y="0.165354" />
+                            <point x="0.580488" y="0.318898" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.736585" y="0.791339" />
+                            <point x="0.507317" y="0.889764" />
+                            <point x="0.273171" y="0.795276" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="scoreLevel2" sid="411662978527637">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="109940340184134" speed="5">
+                    <frame duration="1" hotspotX="0.481625" hotspotY="0.501961" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\score.png">
+                        <collision-poly>
+                            <point x="0.139265" y="0.219608" />
+                            <point x="0.481625" y="0.168627" />
+                            <point x="0.84913" y="0.168627" />
+                            <point x="0.955513" y="0.501961" />
+                            <point x="0.847195" y="0.831373" />
+                            <point x="0.481625" y="0.831373" />
+                            <point x="0.141199" y="0.780392" />
+                            <point x="0.00386847" y="0.501961" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="poçãoScoreLevel2" sid="541574926253989">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872110781811464" speed="5">
+                    <frame duration="1" hotspotX="0.532609" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_05.png">
+                        <collision-poly>
+                            <point x="0.472826" y="0.343284" />
+                            <point x="0.532609" y="0.246269" />
+                            <point x="0.641304" y="0.309702" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.793478" y="0.779851" />
+                            <point x="0.532609" y="0.895522" />
+                            <point x="0.266304" y="0.783582" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.510101" hotspotY="0.490637" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_04.png">
+                        <collision-poly>
+                            <point x="0.429293" y="0.303371" />
+                            <point x="0.540404" y="0.183521" />
+                            <point x="0.611111" y="0.333333" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.742424" y="0.752809" />
+                            <point x="0.540404" y="0.898876" />
+                            <point x="0.227273" y="0.835206" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.531707" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_06.png">
+                        <collision-poly>
+                            <point x="0.365854" y="0.244094" />
+                            <point x="0.531707" y="0.15748" />
+                            <point x="0.595122" y="0.326772" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.75122" y="0.783465" />
+                            <point x="0.531707" y="0.889764" />
+                            <point x="0.287805" y="0.80315" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bodeScoreLevel2" sid="649809825321965">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811652917771331" speed="5">
+                    <frame duration="1" hotspotX="0.492308" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_13.png">
+                        <collision-poly>
+                            <point x="0.353846" y="0.271654" />
+                            <point x="0.492308" y="0.181102" />
+                            <point x="0.574359" y="0.314961" />
+                            <point x="0.779487" y="0.492126" />
+                            <point x="0.738462" y="0.795276" />
+                            <point x="0.492308" y="0.893701" />
+                            <point x="0.261538" y="0.783465" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.489899" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_14.png">
+                        <collision-poly>
+                            <point x="0.39899" y="0.318352" />
+                            <point x="0.489899" y="0.265918" />
+                            <point x="0.590909" y="0.310861" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.727273" y="0.779026" />
+                            <point x="0.489899" y="0.895131" />
+                            <point x="0.19697" y="0.820225" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_15.png">
+                        <collision-poly>
+                            <point x="0.429348" y="0.350746" />
+                            <point x="0.478261" y="0.339552" />
+                            <point x="0.619565" y="0.287313" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.782609" y="0.809702" />
+                            <point x="0.478261" y="0.899254" />
+                            <point x="0.23913" y="0.764925" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.482927" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_16.png">
+                        <collision-poly>
+                            <point x="0.35122" y="0.271654" />
+                            <point x="0.482927" y="0.185039" />
+                            <point x="0.570732" y="0.307087" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.726829" y="0.80315" />
+                            <point x="0.482927" y="0.893701" />
+                            <point x="0.263415" y="0.783465" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pentagramaScoreLevel2" sid="243170032908553">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="469130536874283" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_08.png">
+                        <collision-poly>
+                            <point x="0.358974" y="0.259843" />
+                            <point x="0.512821" y="0.165354" />
+                            <point x="0.584615" y="0.322835" />
+                            <point x="0.764103" y="0.492126" />
+                            <point x="0.74359" y="0.783465" />
+                            <point x="0.512821" y="0.889764" />
+                            <point x="0.271795" y="0.791339" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505435" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_10.png">
+                        <collision-poly>
+                            <point x="0.505435" y="0.309702" />
+                            <point x="0.630435" y="0.298507" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.788044" y="0.794776" />
+                            <point x="0.505435" y="0.895522" />
+                            <point x="0.255435" y="0.772388" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.510101" hotspotY="0.486891" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_09.png">
+                        <collision-poly>
+                            <point x="0.515152" y="0.2397" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.737374" y="0.76779" />
+                            <point x="0.515152" y="0.895131" />
+                            <point x="0.212121" y="0.827715" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507317" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_11.png">
+                        <collision-poly>
+                            <point x="0.356098" y="0.255906" />
+                            <point x="0.507317" y="0.165354" />
+                            <point x="0.580488" y="0.318898" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.736585" y="0.791339" />
+                            <point x="0.507317" y="0.889764" />
+                            <point x="0.273171" y="0.795276" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="scoreLevel4" sid="421376466008084">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745950331743445" speed="5">
+                    <frame duration="1" hotspotX="0.481625" hotspotY="0.501961" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\score.png">
+                        <collision-poly>
+                            <point x="0.139265" y="0.219608" />
+                            <point x="0.481625" y="0.168627" />
+                            <point x="0.84913" y="0.168627" />
+                            <point x="0.955513" y="0.501961" />
+                            <point x="0.847195" y="0.831373" />
+                            <point x="0.481625" y="0.831373" />
+                            <point x="0.141199" y="0.780392" />
+                            <point x="0.00386847" y="0.501961" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="poçãoScoreLevel4" sid="377027889126103">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231516392666077" speed="5">
+                    <frame duration="1" hotspotX="0.532609" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_05.png">
+                        <collision-poly>
+                            <point x="0.472826" y="0.343284" />
+                            <point x="0.532609" y="0.246269" />
+                            <point x="0.641304" y="0.309702" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.793478" y="0.779851" />
+                            <point x="0.532609" y="0.895522" />
+                            <point x="0.266304" y="0.783582" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.520202" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_04.png">
+                        <collision-poly>
+                            <point x="0.429293" y="0.303371" />
+                            <point x="0.540404" y="0.183521" />
+                            <point x="0.611111" y="0.333333" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.742424" y="0.752809" />
+                            <point x="0.540404" y="0.898876" />
+                            <point x="0.227273" y="0.835206" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.531707" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_06.png">
+                        <collision-poly>
+                            <point x="0.365854" y="0.244094" />
+                            <point x="0.531707" y="0.15748" />
+                            <point x="0.595122" y="0.326772" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.75122" y="0.783465" />
+                            <point x="0.531707" y="0.889764" />
+                            <point x="0.287805" y="0.80315" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bodeScoreLevel4" sid="452298418584214">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="483977828984582" speed="5">
+                    <frame duration="1" hotspotX="0.492308" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_13.png">
+                        <collision-poly>
+                            <point x="0.353846" y="0.271654" />
+                            <point x="0.492308" y="0.181102" />
+                            <point x="0.574359" y="0.314961" />
+                            <point x="0.779487" y="0.492126" />
+                            <point x="0.738462" y="0.795276" />
+                            <point x="0.492308" y="0.893701" />
+                            <point x="0.261538" y="0.783465" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.489899" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_14.png">
+                        <collision-poly>
+                            <point x="0.39899" y="0.318352" />
+                            <point x="0.489899" y="0.265918" />
+                            <point x="0.590909" y="0.310861" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.727273" y="0.779026" />
+                            <point x="0.489899" y="0.895131" />
+                            <point x="0.19697" y="0.820225" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.478261" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_15.png">
+                        <collision-poly>
+                            <point x="0.429348" y="0.350746" />
+                            <point x="0.478261" y="0.339552" />
+                            <point x="0.619565" y="0.287313" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.782609" y="0.809702" />
+                            <point x="0.478261" y="0.899254" />
+                            <point x="0.23913" y="0.764925" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.482927" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_16.png">
+                        <collision-poly>
+                            <point x="0.35122" y="0.271654" />
+                            <point x="0.482927" y="0.185039" />
+                            <point x="0.570732" y="0.307087" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.726829" y="0.80315" />
+                            <point x="0.482927" y="0.893701" />
+                            <point x="0.263415" y="0.783465" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pentagramaScoreLevel4" sid="565830047088894">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="618756130874144" speed="5">
+                    <frame duration="1" hotspotX="0.512821" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_08.png">
+                        <collision-poly>
+                            <point x="0.358974" y="0.259843" />
+                            <point x="0.512821" y="0.165354" />
+                            <point x="0.584615" y="0.322835" />
+                            <point x="0.764103" y="0.492126" />
+                            <point x="0.74359" y="0.783465" />
+                            <point x="0.512821" y="0.889764" />
+                            <point x="0.271795" y="0.791339" />
+                            <point x="0.225641" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505435" hotspotY="0.492537" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_10.png">
+                        <collision-poly>
+                            <point x="0.505435" y="0.309702" />
+                            <point x="0.630435" y="0.298507" />
+                            <point x="0.842391" y="0.492537" />
+                            <point x="0.788044" y="0.794776" />
+                            <point x="0.505435" y="0.895522" />
+                            <point x="0.255435" y="0.772388" />
+                            <point x="0.25" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.494382" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_09.png">
+                        <collision-poly>
+                            <point x="0.515152" y="0.2397" />
+                            <point x="0.767677" y="0.494382" />
+                            <point x="0.737374" y="0.76779" />
+                            <point x="0.515152" y="0.895131" />
+                            <point x="0.212121" y="0.827715" />
+                            <point x="0.156566" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.507317" hotspotY="0.492126" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\itens coletaveis\itens-coletaveis_11.png">
+                        <collision-poly>
+                            <point x="0.356098" y="0.255906" />
+                            <point x="0.507317" y="0.165354" />
+                            <point x="0.580488" y="0.318898" />
+                            <point x="0.770732" y="0.492126" />
+                            <point x="0.736585" y="0.791339" />
+                            <point x="0.507317" y="0.889764" />
+                            <point x="0.273171" y="0.795276" />
+                            <point x="0.219512" y="0.492126" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pauseLevel1" sid="372944502301307">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344081919425428" speed="5">
+                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
+                        <collision-poly>
+                            <point x="0.495441" y="0.332645" />
+                            <point x="0.49848" y="0.326446" />
+                            <point x="0.592705" y="0.270661" />
+                            <point x="0.844985" y="0.495868" />
+                            <point x="0.762918" y="0.836777" />
+                            <point x="0.49848" y="0.894628" />
+                            <point x="0.279635" y="0.805785" />
+                            <point x="0.246201" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pauseLevel3" sid="783658754665944">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799881053499096" speed="5">
+                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
+                        <collision-poly>
+                            <point x="0.495441" y="0.332645" />
+                            <point x="0.49848" y="0.326446" />
+                            <point x="0.592705" y="0.270661" />
+                            <point x="0.844985" y="0.495868" />
+                            <point x="0.762918" y="0.836777" />
+                            <point x="0.49848" y="0.894628" />
+                            <point x="0.279635" y="0.805785" />
+                            <point x="0.246201" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pauseLevel2" sid="297306115351432">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632143751630546" speed="5">
+                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
+                        <collision-poly>
+                            <point x="0.495441" y="0.332645" />
+                            <point x="0.49848" y="0.326446" />
+                            <point x="0.592705" y="0.270661" />
+                            <point x="0.844985" y="0.495868" />
+                            <point x="0.762918" y="0.836777" />
+                            <point x="0.49848" y="0.894628" />
+                            <point x="0.279635" y="0.805785" />
+                            <point x="0.246201" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pauseLevel4" sid="538857475864424">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114878102717624" speed="5">
+                    <frame duration="1" hotspotX="0.49848" hotspotY="0.477273" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
+                        <collision-poly>
+                            <point x="0.495441" y="0.332645" />
+                            <point x="0.49848" y="0.326446" />
+                            <point x="0.592705" y="0.270661" />
+                            <point x="0.844985" y="0.495868" />
+                            <point x="0.762918" y="0.836777" />
+                            <point x="0.49848" y="0.894628" />
+                            <point x="0.279635" y="0.805785" />
+                            <point x="0.246201" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundPauseV" sid="606442809480151">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="876842258341331" speed="5">
+                    <frame duration="1" hotspotX="0.500334" hotspotY="0.500499" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-29.png">
+                        <collision-poly>
+                            <point x="0.000667111" y="0.000999001" />
+                            <point x="0.999333" y="0.000999001" />
+                            <point x="1" y="1" />
+                            <point x="0.000667111" y="0.999001" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WallLeftPauseV" sid="390819903056769">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252694739681136" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WallRightPauseV" sid="675492768008947">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373512460052516" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bottonPlayPauseV" sid="394374321094030">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150784731224578" speed="5">
+                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
+                        <collision-poly>
+                            <point x="0.495441" y="0.332645" />
+                            <point x="0.49848" y="0.326446" />
+                            <point x="0.592705" y="0.270661" />
+                            <point x="0.844985" y="0.495868" />
+                            <point x="0.762918" y="0.836777" />
+                            <point x="0.49848" y="0.894628" />
+                            <point x="0.279635" y="0.805785" />
+                            <point x="0.246201" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundPauseH" sid="320519670472924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="342200212112651" speed="5">
+                    <frame duration="1" hotspotX="0.500334" hotspotY="0.500499" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-29.png">
+                        <collision-poly>
+                            <point x="0.000667111" y="0.000999001" />
+                            <point x="0.999333" y="0.000999001" />
+                            <point x="1" y="1" />
+                            <point x="0.000667111" y="0.999001" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wallTopPauseH" sid="721057351431567">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746460181112570" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wallbottomPauseH" sid="330192474946386">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262710135150652" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="buttonPlayH" sid="554468463106959">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136910736037546" speed="5">
+                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
+                        <collision-poly>
+                            <point x="0.495441" y="0.332645" />
+                            <point x="0.49848" y="0.326446" />
+                            <point x="0.592705" y="0.270661" />
+                            <point x="0.844985" y="0.495868" />
+                            <point x="0.762918" y="0.836777" />
+                            <point x="0.49848" y="0.894628" />
+                            <point x="0.279635" y="0.805785" />
+                            <point x="0.246201" y="0.495868" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1579,6 +2431,8 @@
         <layout>layoutGameOverH.xml</layout>
         <layout>layoutGameOverV.xml</layout>
         <layout>layoutTelaInicial.xml</layout>
+        <layout>layoutPauseH.xml</layout>
+        <layout>layoutPauseV.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>eventSheetLevel1.xml</event-sheet>
@@ -1588,6 +2442,8 @@
         <event-sheet>eventSheetLevel3.xml</event-sheet>
         <event-sheet>eventSheetLevel2.xml</event-sheet>
         <event-sheet>eventSheetLayoutGameOverV.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">

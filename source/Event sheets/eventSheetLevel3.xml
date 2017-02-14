@@ -7,7 +7,7 @@
             <conditions>
                 <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel3">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(bgLevel3.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">bgLevel3.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
@@ -20,7 +20,7 @@
             <conditions>
                 <condition id="-1" name="Compare X" sid="862847409916424" type="StreetLevel3">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">-1*(StreetLevel3.Width-WindowWidth)</param>
+                    <param id="1" name="X co-ordinate">StreetLevel3.Width/-2</param>
                 </condition>
             </conditions>
             <actions>
@@ -130,11 +130,11 @@
         <event-block sid="646019710225406">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="998385255559086" type="playerLevel1and3">
-                    <param id="0" name="Object">Pocao</param>
+                    <param id="0" name="Object">Poção</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="874535006377122" type="Pocao" />
+                <action id="-9" name="Destroy" sid="874535006377122" type="Poção" />
                 <action id="-10" name="Add to" sid="738163065991409" type="System">
                     <param id="0" name="Variable">scorePoção</param>
                     <param id="1" name="Value">1</param>
@@ -179,7 +179,7 @@
             </conditions>
             <actions>
                 <action id="-3" name="Create object" sid="120110194428988" type="System">
-                    <param id="0" name="Object to create">Pocao</param>
+                    <param id="0" name="Object to create">Poção</param>
                     <param id="1" name="Layer">1</param>
                     <param id="2" name="X">1510</param>
                     <param id="3" name="Y">random(200, 900)</param>
@@ -197,7 +197,7 @@
                 <action behavior="Bullet" id="0" name="Set speed" sid="416154060781400" type="Pentagrama">
                     <param id="0" name="Speed">-200</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="475544972561020" type="Pocao">
+                <action behavior="Bullet" id="0" name="Set speed" sid="475544972561020" type="Poção">
                     <param id="0" name="Speed">-200</param>
                 </action>
             </actions>
