@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>eventSheetLevel1</name>
     <events>
+        <variable constant="0" name="level1" sid="729225631429964" static="0" type="number">0</variable>
         <variable constant="0" name="scorePoção" sid="418417091164421" static="0" type="number">0</variable>
         <variable constant="0" name="scoreBode" sid="377683470925483" static="0" type="number">0</variable>
         <variable constant="0" name="scorePentagrama" sid="264275843076071" static="0" type="number">0</variable>
@@ -287,7 +288,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="484307123684854" title="Game Ove">
+        <event-group description="" sid="484307123684854" title="Game Over">
             <sub-events>
                 <event-block sid="105820523545601">
                     <conditions>
@@ -314,5 +315,18 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="384119507239909" title="Pause" />
+        <event-block sid="710642576170729">
+            <conditions />
+            <actions>
+                <action id="-16" name="Wait" sid="450028237872338" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Set value" sid="498347826161967" type="System">
+                    <param id="0" name="Variable">level1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

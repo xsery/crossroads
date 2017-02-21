@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>eventSheetLevel3</name>
     <events>
+        <variable constant="0" name="Level3" sid="120386336990423" static="0" type="number">0</variable>
         <event-block sid="482735975184735">
             <conditions>
                 <condition id="-1" name="Compare X" sid="791155263266265" type="bgLevel3">
@@ -269,6 +270,19 @@
                 <action id="4" name="Set animation" sid="870191770409066" type="playerLevel1and3">
                     <param id="0" name="Animation">&quot;running&quot;</param>
                     <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="436736505486580" title="PauseLevel3" />
+        <event-block sid="865106573862539">
+            <conditions />
+            <actions>
+                <action id="-16" name="Wait" sid="818845299513879" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Set value" sid="518326547731796" type="System">
+                    <param id="0" name="Variable">Level3</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>

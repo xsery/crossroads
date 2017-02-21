@@ -49,18 +49,6 @@
         <prop name="Use iOS retina display">iPhone only</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Block" sid="161842618358500">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="Solid" sid="423958602405264">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="Bullet" sid="623604071329383">
-                    <behavior id="Bullet" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
         <object-type name="playerLevel4" sid="701196242491711">
             <plugin id="Sprite" />
             <behaviors>
@@ -309,14 +297,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="219791846987600">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566789166118410" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="bgGameOver" sid="836032114328454">
             <plugin id="Sprite" />
             <animation-folder>
@@ -365,7 +345,7 @@
                             <point x="0.275862" y="0.180451" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.456897" hotspotY="0.488722" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_03.png">
+                    <frame duration="1" hotspotX="0.508621" hotspotY="0.518797" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_03.png">
                         <collision-poly>
                             <point x="0.301724" y="0.172932" />
                             <point x="0.422414" y="0.135338" />
@@ -377,7 +357,7 @@
                             <point x="0.267241" y="0.180451" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.483221" hotspotY="0.47482" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_05.png">
+                    <frame duration="1" hotspotX="0.510067" hotspotY="0.510791" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_05.png">
                         <collision-poly>
                             <point x="0.375839" y="0.215827" />
                             <point x="0.469799" y="0.158273" />
@@ -389,7 +369,7 @@
                             <point x="0.369128" y="0.223022" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.515306" hotspotY="0.531915" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_06.png">
+                    <frame duration="1" hotspotX="0.520408" hotspotY="0.496454" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_06.png">
                         <collision-poly>
                             <point x="0.362245" y="0.141844" />
                             <point x="0.489796" y="0.12766" />
@@ -401,7 +381,7 @@
                             <point x="0.234694" y="0.22695" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.510373" hotspotY="0.528571" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_07.png">
+                    <frame duration="1" hotspotX="0.514523" hotspotY="0.507143" original-source="C:\Users\fernandodantas\Documents\posuea-DesenvolvimentoDeJogos\GameDesign\crossroads\source\Assets\personagem\personagem-Litch_07.png">
                         <collision-poly>
                             <point x="0.390042" y="0.128571" />
                             <point x="0.618257" y="0.128571" />
@@ -2245,82 +2225,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="pauseLevel1" sid="372944502301307">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344081919425428" speed="5">
-                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
-                        <collision-poly>
-                            <point x="0.495441" y="0.332645" />
-                            <point x="0.49848" y="0.326446" />
-                            <point x="0.592705" y="0.270661" />
-                            <point x="0.844985" y="0.495868" />
-                            <point x="0.762918" y="0.836777" />
-                            <point x="0.49848" y="0.894628" />
-                            <point x="0.279635" y="0.805785" />
-                            <point x="0.246201" y="0.495868" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="pauseLevel3" sid="783658754665944">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799881053499096" speed="5">
-                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
-                        <collision-poly>
-                            <point x="0.495441" y="0.332645" />
-                            <point x="0.49848" y="0.326446" />
-                            <point x="0.592705" y="0.270661" />
-                            <point x="0.844985" y="0.495868" />
-                            <point x="0.762918" y="0.836777" />
-                            <point x="0.49848" y="0.894628" />
-                            <point x="0.279635" y="0.805785" />
-                            <point x="0.246201" y="0.495868" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="pauseLevel2" sid="297306115351432">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632143751630546" speed="5">
-                    <frame duration="1" hotspotX="0.49848" hotspotY="0.495868" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
-                        <collision-poly>
-                            <point x="0.495441" y="0.332645" />
-                            <point x="0.49848" y="0.326446" />
-                            <point x="0.592705" y="0.270661" />
-                            <point x="0.844985" y="0.495868" />
-                            <point x="0.762918" y="0.836777" />
-                            <point x="0.49848" y="0.894628" />
-                            <point x="0.279635" y="0.805785" />
-                            <point x="0.246201" y="0.495868" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="pauseLevel4" sid="538857475864424">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114878102717624" speed="5">
-                    <frame duration="1" hotspotX="0.49848" hotspotY="0.477273" original-source="C:\Users\fernandodantas\Documents\posUeaDesenvolvimentoDeJogos\GameDesign\road666.github.io\source\Assets\Pause\tela_pause-30.png">
-                        <collision-poly>
-                            <point x="0.495441" y="0.332645" />
-                            <point x="0.49848" y="0.326446" />
-                            <point x="0.592705" y="0.270661" />
-                            <point x="0.844985" y="0.495868" />
-                            <point x="0.762918" y="0.836777" />
-                            <point x="0.49848" y="0.894628" />
-                            <point x="0.279635" y="0.805785" />
-                            <point x="0.246201" y="0.495868" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="backgroundPauseV" sid="606442809480151">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2428,11 +2332,9 @@
         <layout>Level-2.xml</layout>
         <layout>Level-3.xml</layout>
         <layout>Level-4.xml</layout>
+        <layout>layoutTelaInicial.xml</layout>
         <layout>layoutGameOverH.xml</layout>
         <layout>layoutGameOverV.xml</layout>
-        <layout>layoutTelaInicial.xml</layout>
-        <layout>layoutPauseH.xml</layout>
-        <layout>layoutPauseV.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>eventSheetLevel1.xml</event-sheet>
@@ -2442,8 +2344,6 @@
         <event-sheet>eventSheetLevel3.xml</event-sheet>
         <event-sheet>eventSheetLevel2.xml</event-sheet>
         <event-sheet>eventSheetLayoutGameOverV.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="4">
