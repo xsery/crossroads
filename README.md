@@ -1,7 +1,7 @@
 # ROAD 666
 
 
-Welcome to Route666 game wiki!
+Welcome to Route6666 game wiki!
 
 Based on the infinity run concept where the player walk through obstacles and gathering items but the Litch the Decay faces the Route 666 roles as a challenge. The concept originated in May 2013 called Flappybird that received a sudden rise in popularity in early 2014. 
 
